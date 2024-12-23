@@ -3,8 +3,6 @@ package ies.portadaalta.quizzengine.model.loaders;
 import ies.portadaalta.quizzengine.model.Category;
 import ies.portadaalta.quizzengine.model.Deck;
 import ies.portadaalta.quizzengine.model.Question;
-import io.vavr.Tuple;
-import io.vavr.Tuple2;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -43,40 +41,34 @@ public class DeckSQLiteLoader {
         ResultSet resultSet = statement.executeQuery(sql);
 
         while (resultSet.next()) {
-            //String categoryString = resultSet.getString("category");
             String questionString = resultSet.getString("question");
 
-            Tuple2<List<String>, Integer> answersAndRight = loadAnswers(conn, category, questionString);
+            List<String> answers = loadAnswers(conn, category, questionString);
 
-            Question question = new Question(category, questionString, answersAndRight._1(), answersAndRight._2());
+            Question question = new Question(category, questionString, answers);
             questions.add(question);
         }
 
         return questions;
     }
 
-    private Tuple2<List<String>, Integer> loadAnswers(Connection conn, Category category, String questionString) throws SQLException {
+    private List<String> loadAnswers(Connection conn, Category category, String questionString) throws SQLException {
         List<String> answers = new ArrayList<>();
 
-        String sql = "SELECT answer, question, rightAnswer FROM Answer WHERE question='" + questionString + "'";
+        String sql = "SELECT answer, question FROM Answer WHERE question='" + scapeSingleQuotes(questionString) + "'";
         Statement statement = conn.createStatement();
         ResultSet resultSet = statement.executeQuery(sql);
 
-        int index = 0;
-        int rightAnswer = -1;
         while (resultSet.next()) {
             String answer = resultSet.getString("answer");
-            //String question = resultSet.getString("question");
-            if (resultSet.getInt("rightAnswer") == 1) {
-                rightAnswer = index;
-            }
             answers.add(answer);
-            index++;
         }
 
-        Tuple2<List<String>, Integer> answersAndRight = Tuple.of(answers, rightAnswer);
+        return answers;
+    }
 
-        return answersAndRight;
+    private String scapeSingleQuotes(String s) {
+        return s.replace("'", "''");
     }
 
     private List<Category> loadCategories(Connection conn) throws SQLException {

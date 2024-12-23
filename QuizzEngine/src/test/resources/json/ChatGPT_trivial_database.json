@@ -3,11 +3,10 @@
     "questions": [
       {
         "question": {
-          "rightAnswer": 1,
           "question": "¿Cuál es la capital de España?",
           "answers": [
-            "Barcelona",
             "Madrid",
+            "Barcelona",
             "Valencia",
             "Sevilla"
           ]
@@ -15,7 +14,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿En qué continente se encuentra Brasil?",
           "answers": [
             "América del Sur",
@@ -27,7 +25,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es el río más largo del mundo?",
           "answers": [
             "Amazonas",
@@ -39,7 +36,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es la montaña más alta del mundo?",
           "answers": [
             "Everest",
@@ -51,7 +47,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es el país más grande del mundo en extensión territorial?",
           "answers": [
             "Rusia",
@@ -63,7 +58,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es el punto más bajo de la Tierra?",
           "answers": [
             "Mar Muerto",
@@ -75,7 +69,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es la ciudad más poblada del mundo?",
           "answers": [
             "Tokio",
@@ -87,11 +80,10 @@
       },
       {
         "question": {
-          "rightAnswer": 1,
           "question": "¿En qué país se encuentra la Gran Muralla China?",
           "answers": [
-            "Japón",
             "China",
+            "Japón",
             "Corea del Sur",
             "India"
           ]
@@ -99,7 +91,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es el océano más grande del mundo?",
           "answers": [
             "Océano Pacífico",
@@ -111,11 +102,10 @@
       },
       {
         "question": {
-          "rightAnswer": 1,
           "question": "¿En qué país se encuentra la Torre Eiffel?",
           "answers": [
-            "Italia",
             "Francia",
+            "Italia",
             "Alemania",
             "España"
           ]
@@ -123,7 +113,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es el desierto más grande del mundo?",
           "answers": [
             "Sahara",
@@ -135,19 +124,17 @@
       },
       {
         "question": {
-          "rightAnswer": 2,
           "question": "¿Cuál es la capital de Japón?",
           "answers": [
+            "Tokio",
             "Pekín",
             "Seúl",
-            "Tokio",
             "Bangkok"
           ]
         }
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Dónde se encuentra la famosa estatua del Cristo Redentor?",
           "answers": [
             "Río de Janeiro, Brasil",
@@ -159,7 +146,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿En qué país se encuentra el Taj Mahal?",
           "answers": [
             "India",
@@ -171,7 +157,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es el país más grande de Sudamérica?",
           "answers": [
             "Brasil",
@@ -183,11 +168,10 @@
       },
       {
         "question": {
-          "rightAnswer": 1,
           "question": "¿En qué país se encuentra el Canal de Panamá?",
           "answers": [
-            "Costa Rica",
             "Panamá",
+            "Costa Rica",
             "Colombia",
             "Nicaragua"
           ]
@@ -195,7 +179,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es la cascada más alta del mundo?",
           "answers": [
             "Angel Falls",
@@ -207,7 +190,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿En qué país se encuentra la Gran Barrera de Coral?",
           "answers": [
             "Australia",
@@ -219,7 +201,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es la moneda oficial de Japón?",
           "answers": [
             "Yen",
@@ -231,7 +212,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es la ciudad más alta del mundo?",
           "answers": [
             "La Paz",
@@ -243,11 +223,10 @@
       },
       {
         "question": {
-          "rightAnswer": 1,
           "question": "¿En qué país se encuentra el Monte Everest?",
           "answers": [
-            "India",
             "Nepal",
+            "India",
             "China",
             "Tíbet"
           ]
@@ -255,7 +234,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es la capital de Italia?",
           "answers": [
             "Roma",
@@ -267,35 +245,32 @@
       },
       {
         "question": {
-          "rightAnswer": 3,
           "question": "¿En qué ciudad se encuentra la Torre de Pisa?",
           "answers": [
+            "Pisa",
             "Roma",
             "Venecia",
-            "Florencia",
-            "Pisa"
+            "Florencia"
           ]
         }
       },
       {
         "question": {
-          "rightAnswer": 2,
           "question": "¿Cuál es la capital de Alemania?",
           "answers": [
+            "Berlín",
             "Madrid",
             "Roma",
-            "Berlín",
             "París"
           ]
         }
       },
       {
         "question": {
-          "rightAnswer": 1,
           "question": "¿En qué país se encuentra la Gran Muralla China?",
           "answers": [
-            "Japón",
             "China",
+            "Japón",
             "India",
             "Corea del Sur"
           ]
@@ -303,23 +278,21 @@
       },
       {
         "question": {
-          "rightAnswer": 2,
           "question": "¿En qué continente se encuentra Australia?",
           "answers": [
+            "Oceanía",
             "Europa",
             "Asia",
-            "Oceanía",
             "África"
           ]
         }
       },
       {
         "question": {
-          "rightAnswer": 1,
           "question": "¿Cuál es la capital de Francia?",
           "answers": [
-            "Londres",
             "París",
+            "Londres",
             "Madrid",
             "Roma"
           ]
@@ -327,7 +300,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿En qué país se encuentra la ciudad de Machu Picchu?",
           "answers": [
             "Perú",
@@ -339,7 +311,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es el país más grande de Europa?",
           "answers": [
             "Rusia",
@@ -351,7 +322,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿En qué país se encuentra la ciudad de Machu Picchu?",
           "answers": [
             "Perú",
@@ -369,25 +339,22 @@
             "Chile",
             "Argentina",
             "Brasil"
-          ],
-          "rightAnswer": 0
+          ]
         }
       },
       {
         "question": {
-          "rightAnswer": 2,
           "question": "¿Cuál es la capital de Canadá?",
           "answers": [
+            "Ottawa",
             "Toronto",
             "Montreal",
-            "Ottawa",
             "Vancouver"
           ]
         }
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es la capital de Colombia?",
           "answers": [
             "Bogotá",
@@ -399,7 +366,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es la capital de Argentina?",
           "answers": [
             "Buenos Aires",
@@ -411,7 +377,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿En qué país se encuentra la Torre Eiffel?",
           "answers": [
             "Francia",
@@ -423,7 +388,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es la capital de Estados Unidos?",
           "answers": [
             "Washington D.C.",
@@ -435,7 +399,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es el país más poblado del mundo?",
           "answers": [
             "China",
@@ -452,7 +415,6 @@
     "questions": [
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál de las siguientes películas de Pixar se estrenó primero?",
           "answers": [
             "Toy Story",
@@ -464,7 +426,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Quién es el protagonista de la serie de TV 'Breaking Bad'?",
           "answers": [
             "Walter White",
@@ -476,7 +437,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es el nombre del actor que interpretó a Jack Sparrow en la saga de 'Piratas del Caribe'?",
           "answers": [
             "Johnny Depp",
@@ -488,7 +448,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿En qué año se estrenó la película 'Titanic'?",
           "answers": [
             "1997",
@@ -500,7 +459,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿En qué año se estrenó la primera película de la saga 'Star Wars'?",
           "answers": [
             "1977",
@@ -512,19 +470,17 @@
       },
       {
         "question": {
-          "rightAnswer": 2,
           "question": "¿Cuál es el nombre del actor que interpreta a Iron Man en las películas de Marvel?",
           "answers": [
+            "Robert Downey Jr.",
             "Chris Evans",
             "Chris Hemsworth",
-            "Robert Downey Jr.",
             "Mark Ruffalo"
           ]
         }
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es el nombre del director de la película 'El Laberinto del Fauno'?",
           "answers": [
             "Guillermo del Toro",
@@ -536,7 +492,6 @@
       },
       {
         "question": {
-          "rightAnswer": 1,
           "question": "¿En qué película de Disney aparece el personaje Simba?",
           "answers": [
             "La Sirenita",
@@ -548,19 +503,17 @@
       },
       {
         "question": {
-          "rightAnswer": 2,
           "question": "¿Quién es el creador de la serie de TV 'Friends'?",
           "answers": [
+            "David Crane",
             "Steven Spielberg",
             "J.J. Abrams",
-            "David Crane",
             "Jerry Seinfeld"
           ]
         }
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál de las siguientes películas ganó el premio Óscar a Mejor Película en 2019?",
           "answers": [
             "Parasite",
@@ -572,7 +525,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Quién interpretó el papel de Hermione Granger en las películas de Harry Potter?",
           "answers": [
             "Emma Watson",
@@ -584,7 +536,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿En qué año se estrenó la película 'El Rey León' de Disney?",
           "answers": [
             "1994",
@@ -596,7 +547,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es el nombre del director de la película 'El Padrino'?",
           "answers": [
             "Francis Ford Coppola",
@@ -608,7 +558,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Quién es el director de la película 'El Señor de los Anillos: La Comunidad del Anillo'?",
           "answers": [
             "Peter Jackson",
@@ -620,7 +569,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿En qué película de Quentin Tarantino aparece el personaje de Jules Winnfield?",
           "answers": [
             "Pulp Fiction",
@@ -632,7 +580,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Quién interpretó el personaje de Katniss Everdeen en la saga de 'Los Juegos del Hambre'?",
           "answers": [
             "Jennifer Lawrence",
@@ -644,7 +591,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Quién es el protagonista de la serie de TV 'Breaking Bad'?",
           "answers": [
             "Walter White",
@@ -656,7 +602,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cómo se llama la actriz que interpreta a Daenerys Targaryen en la serie 'Juego de Tronos'?",
           "answers": [
             "Emilia Clarke",
@@ -668,7 +613,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es el nombre del actor que interpreta a Tony Stark en las películas de Marvel?",
           "answers": [
             "Robert Downey Jr.",
@@ -680,7 +624,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿En qué año se estrenó la película 'El Rey León' de Disney?",
           "answers": [
             "1994",
@@ -692,7 +635,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál de las siguientes series de TV fue creada por Matt Groening?",
           "answers": [
             "Los Simpson",
@@ -704,7 +646,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es el nombre del protagonista de la serie de TV 'The Walking Dead'?",
           "answers": [
             "Rick Grimes",
@@ -716,7 +657,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es el nombre del actor que interpretó a Jack Sparrow en la saga de 'Piratas del Caribe'?",
           "answers": [
             "Johnny Depp",
@@ -728,7 +668,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿En qué año se estrenó la película 'Titanic'?",
           "answers": [
             "1997",
@@ -740,7 +679,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál de las siguientes películas de Pixar se estrenó primero?",
           "answers": [
             "Toy Story",
@@ -752,7 +690,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿En qué serie de TV aparece el personaje de Walter White?",
           "answers": [
             "Breaking Bad",
@@ -764,7 +701,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es el nombre del actor que interpretó a Jack Sparrow en la saga de 'Piratas del Caribe'?",
           "answers": [
             "Johnny Depp",
@@ -781,23 +717,21 @@
     "questions": [
       {
         "question": {
-          "rightAnswer": 2,
           "question": "¿Quién fue el primer presidente de los Estados Unidos?",
           "answers": [
+            "George Washington",
             "Thomas Jefferson",
             "Benjamin Franklin",
-            "George Washington",
             "John Adams"
           ]
         }
       },
       {
         "question": {
-          "rightAnswer": 1,
           "question": "¿En qué año comenzó la Revolución Francesa?",
           "answers": [
-            "1776",
             "1789",
+            "1776",
             "1812",
             "1799"
           ]
@@ -805,7 +739,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál fue la capital del Imperio Romano?",
           "answers": [
             "Roma",
@@ -817,7 +750,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Quién fue el líder de la Revolución Cubana?",
           "answers": [
             "Fidel Castro",
@@ -829,19 +761,17 @@
       },
       {
         "question": {
-          "rightAnswer": 2,
           "question": "¿Quién fue el primer emperador romano?",
           "answers": [
+            "Augusto",
             "Julio César",
             "Nerón",
-            "Augusto",
             "Constantino"
           ]
         }
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿En qué año se firmó el Tratado de Versalles, poniendo fin a la Primera Guerra Mundial?",
           "answers": [
             "1919",
@@ -853,7 +783,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál fue la fecha de la Declaración de Independencia de los Estados Unidos?",
           "answers": [
             "4 de julio de 1776",
@@ -865,11 +794,10 @@
       },
       {
         "question": {
-          "rightAnswer": 1,
           "question": "¿Quién fue el emperador de Francia durante el siglo XIX?",
           "answers": [
-            "Napoleón Bonaparte",
             "Napoleón III",
+            "Napoleón Bonaparte",
             "Luis XVIII",
             "Carlos X"
           ]
@@ -877,7 +805,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿En qué año se produjo la caída del Muro de Berlín?",
           "answers": [
             "1989",
@@ -889,31 +816,28 @@
       },
       {
         "question": {
-          "rightAnswer": 2,
           "question": "¿Qué famoso líder político argentino fue conocido como 'El Che'?",
           "answers": [
+            "Che Guevara",
             "Eva Perón",
             "Juan Domingo Perón",
-            "Che Guevara",
             "Mauricio Macri"
           ]
         }
       },
       {
         "question": {
-          "rightAnswer": 3,
           "question": "¿Quién fue el líder de la Revolución Mexicana?",
           "answers": [
+            "Francisco Madero",
             "Emiliano Zapata",
             "Porfirio Díaz",
-            "Pancho Villa",
-            "Francisco Madero"
+            "Pancho Villa"
           ]
         }
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿En qué año comenzó la Guerra de Independencia de México?",
           "answers": [
             "1810",
@@ -925,11 +849,10 @@
       },
       {
         "question": {
-          "rightAnswer": 1,
           "question": "¿Cuál fue el nombre de la primera civilización de la historia?",
           "answers": [
-            "Egipto",
             "Mesopotamia",
+            "Egipto",
             "China",
             "Grecia"
           ]
@@ -937,19 +860,17 @@
       },
       {
         "question": {
-          "rightAnswer": 3,
           "question": "¿En qué año se promulgó la Constitución de los Estados Unidos?",
           "answers": [
+            "1787",
             "1776",
             "1789",
-            "1791",
-            "1787"
+            "1791"
           ]
         }
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿En qué país nació Simón Bolívar?",
           "answers": [
             "Venezuela",
@@ -961,7 +882,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Quién fue el líder de la Revolución Rusa de 1917?",
           "answers": [
             "Lenin",
@@ -973,7 +893,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿En qué año se firmó el Tratado de Tordesillas?",
           "answers": [
             "1494",
@@ -985,7 +904,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Quién fue el conquistador español que lideró la expedición que resultó en la conquista de México?",
           "answers": [
             "Hernán Cortés",
@@ -997,7 +915,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿En qué año se proclamó la independencia de Argentina?",
           "answers": [
             "1816",
@@ -1009,19 +926,17 @@
       },
       {
         "question": {
-          "rightAnswer": 3,
           "question": "¿Quién fue la primera mujer en recibir el Premio Nobel de la Paz?",
           "answers": [
+            "Jane Addams",
             "Marie Curie",
             "Rigoberta Menchú",
-            "Mother Teresa",
-            "Jane Addams"
+            "Mother Teresa"
           ]
         }
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Qué presidente de Estados Unidos fue conocido como 'el padre de la patria'?",
           "answers": [
             "George Washington",
@@ -1033,7 +948,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Quién fue el líder de la Revolución Cubana?",
           "answers": [
             "Fidel Castro",
@@ -1045,19 +959,17 @@
       },
       {
         "question": {
-          "rightAnswer": 3,
           "question": "¿Quién fue el líder de la Revolución Mexicana?",
           "answers": [
+            "Francisco Madero",
             "Emiliano Zapata",
             "Francisco Villa",
-            "Miguel Hidalgo",
-            "Francisco Madero"
+            "Miguel Hidalgo"
           ]
         }
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿En qué año se produjo la caída del Muro de Berlín?",
           "answers": [
             "1989",
@@ -1069,7 +981,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿En qué año se produjo la caída del Muro de Berlín?",
           "answers": [
             "1989",
@@ -1081,7 +992,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál fue el nombre de la primera civilización de la historia?",
           "answers": [
             "Mesopotamia",
@@ -1093,7 +1003,6 @@
       },
       {
         "question": {
-          "rightAnswer": 1,
           "question": "¿En qué año se proclamó la independencia de Argentina?",
           "answers": [
             "1806",
@@ -1105,12 +1014,11 @@
       },
       {
         "question": {
-          "rightAnswer": 2,
           "question": "¿Quién fue el líder de la Revolución Mexicana?",
           "answers": [
+            "Venustiano Carranza",
             "Emiliano Zapata",
             "Pancho Villa",
-            "Venustiano Carranza",
             "Porfirio Díaz"
           ]
         }
@@ -1129,11 +1037,10 @@
       },
       {
         "question": {
-          "rightAnswer": 1,
           "question": "¿Quién fue el líder de la Revolución Mexicana?",
           "answers": [
-            "Emiliano Zapata",
             "Pancho Villa",
+            "Emiliano Zapata",
             "Porfirio Díaz",
             "Francisco Madero"
           ]
@@ -1141,7 +1048,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿En qué año se proclamó la independencia de Argentina?",
           "answers": [
             "1816",
@@ -1158,7 +1064,6 @@
     "questions": [
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Quién pintó el famoso cuadro 'La noche estrellada'?",
           "answers": [
             "Vincent van Gogh",
@@ -1170,7 +1075,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Qué escritor colombiano ganó el Premio Nobel de Literatura en 1982?",
           "answers": [
             "Gabriel García Márquez",
@@ -1182,7 +1086,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Qué pintor español es conocido por su obra 'Guernica'?",
           "answers": [
             "Pablo Picasso",
@@ -1194,7 +1097,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Quién escribió 'Cien años de soledad'?",
           "answers": [
             "Gabriel García Márquez",
@@ -1206,7 +1108,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿En qué ciudad se encuentra el Museo del Louvre?",
           "answers": [
             "París",
@@ -1218,7 +1119,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Quién fue el autor de la famosa obra 'Don Quijote de la Mancha'?",
           "answers": [
             "Miguel de Cervantes",
@@ -1230,7 +1130,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Quién fue el famoso arquitecto catalán conocido por su estilo modernista?",
           "answers": [
             "Antoni Gaudí",
@@ -1242,7 +1141,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es la famosa novela de Gabriel García Márquez que narra la historia de la familia Buendía en Macondo?",
           "answers": [
             "Cien años de soledad",
@@ -1254,11 +1152,10 @@
       },
       {
         "question": {
-          "rightAnswer": 1,
           "question": "¿Quién es el pintor español conocido por su serie de pinturas 'Las meninas'?",
           "answers": [
-            "Pablo Picasso",
             "Diego Velázquez",
+            "Pablo Picasso",
             "Salvador Dalí",
             "Francisco de Goya"
           ]
@@ -1266,7 +1163,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "En la obra 'La casa de Bernarda Alba', ¿quién es el personaje principal?",
           "answers": [
             "Bernarda Alba",
@@ -1278,7 +1174,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es la novela más conocida de Miguel de Cervantes?",
           "answers": [
             "Don Quijote de la Mancha",
@@ -1290,7 +1185,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es el nombre completo del famoso pintor conocido como Picasso?",
           "answers": [
             "Pablo Diego José Francisco de Paula Juan Nepomuceno María de los Remedios Cipriano de la Santísima Trinidad Ruiz y Picasso",
@@ -1302,19 +1196,17 @@
       },
       {
         "question": {
-          "rightAnswer": 3,
           "question": "¿Qué escritor español ganó el Premio Nobel de Literatura en 1977?",
           "answers": [
+            "Mario Vargas Llosa",
             "Gabriel García Márquez",
             "Pablo Neruda",
-            "Miguel Delibes",
-            "Mario Vargas Llosa"
+            "Miguel Delibes"
           ]
         }
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Quién fue el autor de la famosa obra 'La metamorfosis'?",
           "answers": [
             "Franz Kafka",
@@ -1326,7 +1218,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Quién escribió el poema épico 'La Ilíada'?",
           "answers": [
             "Homero",
@@ -1338,7 +1229,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Quién fue el autor de 'El retrato de Dorian Gray'?",
           "answers": [
             "Oscar Wilde",
@@ -1350,7 +1240,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Qué escritor y dramaturgo español es conocido por su obra 'La casa de Bernarda Alba'?",
           "answers": [
             "Federico García Lorca",
@@ -1362,7 +1251,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Quién es el autor de 'El principito'?",
           "answers": [
             "Antoine de Saint-Exupéry",
@@ -1374,11 +1262,10 @@
       },
       {
         "question": {
-          "rightAnswer": 1,
           "question": "¿Quién pintó 'Las Meninas'?",
           "answers": [
-            "Pablo Picasso",
             "Diego Velázquez",
+            "Pablo Picasso",
             "Salvador Dalí",
             "Francisco de Goya"
           ]
@@ -1386,19 +1273,17 @@
       },
       {
         "question": {
-          "rightAnswer": 2,
           "question": "¿Qué pintor neerlandés es conocido por su serie de autorretratos?",
           "answers": [
+            "Rembrandt",
             "Vincent van Gogh",
             "Johannes Vermeer",
-            "Rembrandt",
             "Pablo Picasso"
           ]
         }
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es la obra más famosa del pintor italiano Leonardo da Vinci?",
           "answers": [
             "La Mona Lisa",
@@ -1410,7 +1295,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Quién escribió la obra 'La Odisea'?",
           "answers": [
             "Homero",
@@ -1422,7 +1306,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Quién fue el autor de 'La noche estrellada'?",
           "answers": [
             "Vincent van Gogh",
@@ -1434,11 +1317,10 @@
       },
       {
         "question": {
-          "rightAnswer": 1,
           "question": "¿Quién es el autor de 'La divina comedia'?",
           "answers": [
-            "Miguel de Cervantes",
             "Dante Alighieri",
+            "Miguel de Cervantes",
             "William Shakespeare",
             "Julio Cortázar"
           ]
@@ -1446,11 +1328,10 @@
       },
       {
         "question": {
-          "rightAnswer": 1,
           "question": "¿Quién fue el autor de 'El jardín de las delicias'?",
           "answers": [
-            "Pablo Picasso",
             "Hieronymus Bosch",
+            "Pablo Picasso",
             "Vincent van Gogh",
             "Salvador Dalí"
           ]
@@ -1458,7 +1339,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Quién escribió el famoso libro 'Don Quijote de la Mancha'?",
           "answers": [
             "Miguel de Cervantes",
@@ -1470,7 +1350,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿En qué país nació el pintor Salvador Dalí?",
           "answers": [
             "España",
@@ -1482,7 +1361,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Quién fue el autor del 'Guernica'?",
           "answers": [
             "Pablo Picasso",
@@ -1494,7 +1372,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Quién fue el compositor de la famosa obra 'Las Cuatro Estaciones'?",
           "answers": [
             "Antonio Vivaldi",
@@ -1511,7 +1388,6 @@
     "questions": [
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Qué planeta es conocido como el planeta rojo?",
           "answers": [
             "Marte",
@@ -1535,19 +1411,17 @@
       },
       {
         "question": {
-          "rightAnswer": 2,
           "question": "¿Cuál es el elemento más abundante en la corteza terrestre?",
           "answers": [
+            "Silicio",
             "Oxígeno",
             "Hierro",
-            "Silicio",
             "Aluminio"
           ]
         }
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Quién descubrió la gravedad al observar una manzana caer de un árbol?",
           "answers": [
             "Isaac Newton",
@@ -1559,19 +1433,17 @@
       },
       {
         "question": {
-          "rightAnswer": 2,
           "question": "¿Cuál es el animal terrestre más grande del mundo?",
           "answers": [
+            "Jirafa",
             "Elefante",
             "Rinoceronte",
-            "Jirafa",
             "Oso polar"
           ]
         }
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es el proceso mediante el cual las plantas producen su propia comida?",
           "answers": [
             "Fotosíntesis",
@@ -1583,7 +1455,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es el nombre de la galaxia en la que se encuentra la Tierra?",
           "answers": [
             "Vía Láctea",
@@ -1595,7 +1466,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es la velocidad de la luz en el vacío?",
           "answers": [
             "299,792,458 m/s",
@@ -1607,7 +1477,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es la temperatura en la que el agua hierve?",
           "answers": [
             "100 grados Celsius",
@@ -1619,11 +1488,10 @@
       },
       {
         "question": {
-          "rightAnswer": 1,
           "question": "¿Cuál es el órgano más grande del cuerpo humano?",
           "answers": [
-            "El hígado",
             "La piel",
+            "El hígado",
             "El corazón",
             "Los pulmones"
           ]
@@ -1631,7 +1499,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es la capital de España?",
           "answers": [
             "Madrid",
@@ -1643,7 +1510,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Quién fue el primer ser humano en llegar a la Luna?",
           "answers": [
             "Neil Armstrong",
@@ -1655,7 +1521,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es la fórmula química del agua?",
           "answers": [
             "H2O",
@@ -1667,7 +1532,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es el ave nacional de Estados Unidos?",
           "answers": [
             "El águila calva",
@@ -1679,7 +1543,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Dónde se encuentra el ADN en las células?",
           "answers": [
             "En el núcleo",
@@ -1691,7 +1554,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es el animal más grande del mundo?",
           "answers": [
             "Ballena azul",
@@ -1703,11 +1565,10 @@
       },
       {
         "question": {
-          "rightAnswer": 1,
           "question": "¿Qué científico propuso la teoría de la relatividad?",
           "answers": [
-            "Isaac Newton",
             "Albert Einstein",
+            "Isaac Newton",
             "Galileo Galilei",
             "Stephen Hawking"
           ]
@@ -1715,7 +1576,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es la principal causa del cambio climático en la actualidad?",
           "answers": [
             "La emisión de gases de efecto invernadero",
@@ -1727,7 +1587,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es el gas más abundante en la atmósfera terrestre?",
           "answers": [
             "Nitrógeno",
@@ -1739,7 +1598,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Dónde se encuentra el Monte Everest, la montaña más alta del mundo?",
           "answers": [
             "En Nepal y China",
@@ -1751,7 +1609,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es el proceso mediante el cual las plantas producen su propia comida?",
           "answers": [
             "Fotosíntesis",
@@ -1763,7 +1620,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es el proceso mediante el cual las plantas producen su propia comida?",
           "answers": [
             "Fotosíntesis",
@@ -1775,11 +1631,10 @@
       },
       {
         "question": {
-          "rightAnswer": 1,
           "question": "¿Qué científico propuso la teoría de la relatividad?",
           "answers": [
-            "Isaac Newton",
             "Albert Einstein",
+            "Isaac Newton",
             "Galileo Galilei",
             "Marie Curie"
           ]
@@ -1787,7 +1642,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es el proceso mediante el cual las plantas producen su propia comida?",
           "answers": [
             "Fotosíntesis",
@@ -1799,7 +1653,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es el proceso mediante el cual las plantas producen su propia comida?",
           "answers": [
             "Fotosíntesis",
@@ -1811,7 +1664,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es la principal causa del cambio climático en la actualidad?",
           "answers": [
             "Emisiones de gases de efecto invernadero",
@@ -1823,7 +1675,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es el ave nacional de Estados Unidos?",
           "answers": [
             "Águila calva",
@@ -1835,7 +1686,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es el ave nacional de Estados Unidos?",
           "answers": [
             "Águila calva",
@@ -1847,7 +1697,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es el ave nacional de Estados Unidos?",
           "answers": [
             "Águila calva",
@@ -1859,7 +1708,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Dónde se encuentra el río Amazonas, el río más caudaloso del mundo?",
           "answers": [
             "América del Sur",
@@ -1871,7 +1719,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es el ave nacional de Estados Unidos?",
           "answers": [
             "Águila calva",
@@ -1888,7 +1735,6 @@
     "questions": [
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿En qué deporte se utiliza una raqueta para golpear una pelota?",
           "answers": [
             "Tenis",
@@ -1900,7 +1746,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Quién es considerado el mejor jugador de baloncesto de todos los tiempos?",
           "answers": [
             "Michael Jordan",
@@ -1912,7 +1757,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿En qué año se celebraron los primeros Juegos Olímpicos modernos?",
           "answers": [
             "1896",
@@ -1924,7 +1768,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿En qué país se originó el tango, un baile tradicional latinoamericano?",
           "answers": [
             "Argentina",
@@ -1936,7 +1779,6 @@
       },
       {
         "question": {
-          "rightAnswer": 1,
           "question": "¿En qué país se originó el fútbol, el deporte más popular del mundo?",
           "answers": [
             "Brasil",
@@ -1948,7 +1790,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es el nombre del principal personaje de la serie de televisión 'Breaking Bad'?",
           "answers": [
             "Walter White",
@@ -1960,7 +1801,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es el nombre del famoso mago creado por la escritora J.K. Rowling?",
           "answers": [
             "Harry Potter",
@@ -1972,7 +1812,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Quién escribió la obra 'Cien años de soledad'?",
           "answers": [
             "Gabriel García Márquez",
@@ -1984,7 +1823,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿En qué ciudad se encuentra el famoso estadio de fútbol Santiago Bernabéu?",
           "answers": [
             "Madrid",
@@ -1996,7 +1834,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿En qué deporte se enfrentan dos luchadores en un ring?",
           "answers": [
             "Boxeo",
@@ -2008,7 +1845,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿En qué país se originó el famoso baile de salsa?",
           "answers": [
             "Cuba",
@@ -2020,7 +1856,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿En qué deporte se utiliza un bate para golpear una pelota?",
           "answers": [
             "Béisbol",
@@ -2032,7 +1867,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿En qué ciudad se celebran los famosos carnavales de Río de Janeiro?",
           "answers": [
             "Río de Janeiro",
@@ -2044,7 +1878,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Quién es el autor de la famosa novela 'Don Quijote de la Mancha'?",
           "answers": [
             "Miguel de Cervantes",
@@ -2056,7 +1889,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es el nombre del personaje principal de la serie 'Stranger Things'?",
           "answers": [
             "Eleven",
@@ -2068,7 +1900,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿En qué deporte se utiliza un palo y una pelota para golpearla en un hoyo?",
           "answers": [
             "Golf",
@@ -2080,11 +1911,10 @@
       },
       {
         "question": {
-          "rightAnswer": 1,
           "question": "¿Cuál es el nombre del famoso pintor español conocido por su estilo surrealista?",
           "answers": [
-            "Pablo Picasso",
             "Salvador Dalí",
+            "Pablo Picasso",
             "Vincent van Gogh",
             "Leonardo Da Vinci"
           ]
@@ -2092,7 +1922,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿En qué año se inauguraron los primeros Juegos Olímpicos de la era moderna?",
           "answers": [
             "1896",
@@ -2104,7 +1933,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es el nombre de la famosa cantante colombiana conocida por canciones como 'Hips Don't Lie' y 'La Tortura'?",
           "answers": [
             "Shakira",
@@ -2116,7 +1944,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿En qué año se inauguraron los primeros Juegos Olímpicos de la era moderna?",
           "answers": [
             "1896",
@@ -2128,7 +1955,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es el nombre del personaje principal de la serie de televisión 'The Simpsons'?",
           "answers": [
             "Homer",
@@ -2140,7 +1966,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es el apellido del presidente de Estados Unidos que fue conocido por su famosa frase 'Sí, podemos'?",
           "answers": [
             "Obama",
@@ -2152,7 +1977,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿En qué deporte se utiliza una raqueta para golpear una pelota?",
           "answers": [
             "Tenis",
@@ -2164,7 +1988,6 @@
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿Cuál es el nombre del pintor español conocido por su cuadro 'Guernica'?",
           "answers": [
             "Pablo Picasso",
@@ -2176,19 +1999,17 @@
       },
       {
         "question": {
-          "rightAnswer": 2,
           "question": "¿En qué ciudad se encuentra la famosa torre inclinada de Pisa?",
           "answers": [
+            "Pisa",
             "Roma",
             "Florencia",
-            "Pisa",
             "Milán"
           ]
         }
       },
       {
         "question": {
-          "rightAnswer": 0,
           "question": "¿En qué deporte se utilizan guantes y un casco protector?",
           "answers": [
             "Boxeo",
@@ -2200,11 +2021,10 @@
       },
       {
         "question": {
-          "rightAnswer": 1,
           "question": "¿En qué deporte se utiliza un casco protector y guantes?",
           "answers": [
-            "Fútbol",
             "Boxeo",
+            "Fútbol",
             "Tenis",
             "Natación"
           ]

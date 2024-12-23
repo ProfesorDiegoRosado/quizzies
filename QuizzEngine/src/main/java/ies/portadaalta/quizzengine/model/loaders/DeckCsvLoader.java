@@ -6,6 +6,7 @@ import com.fasterxml.jackson.dataformat.csv.CsvParser;
 import ies.portadaalta.quizzengine.model.Category;
 import ies.portadaalta.quizzengine.model.Deck;
 import ies.portadaalta.quizzengine.model.Question;
+import io.vavr.NotImplementedError;
 
 import java.io.File;
 import java.io.IOException;
@@ -18,8 +19,11 @@ import java.util.Map;
 
 public class DeckCsvLoader {
 
+    //public final static String CSV_HEADER = """
+    //        category, question, rightAnswer, answers (variable column size)""";
     public final static String CSV_HEADER = """
-            category, question, rightAnswer, answers (variable column size)""";
+            category, question, answers (variable column size)""";
+    private final static int ANSWERS_START_INDEX = 2;
 
     private final CsvMapper mapper;
 
@@ -28,7 +32,7 @@ public class DeckCsvLoader {
     }
 
     public Deck loadFromFile(String deckName, File file) {
-        return null;
+        throw new NotImplementedError("loadFromFile not implemented yet");
     }
 
     public Deck loadFromFilename(String deckName, String filename) throws IOException {
@@ -44,13 +48,13 @@ public class DeckCsvLoader {
 
         List<List<String>> csvContent = it.readAll();
 
-        if (csvContent.size()==0) {
+        if (csvContent.isEmpty()) {
             throw new IOException("File contains no information");
         }
 
-        List<String> headerLine = csvContent.get(0);
-        assert headerLine.get(0).trim().toLowerCase().startsWith("category");
-        csvContent.remove(0); // remove header line
+        List<String> headerLine = csvContent.getFirst();
+        assert headerLine.getFirst().trim().toLowerCase().startsWith("category");
+        csvContent.removeFirst(); // remove header line
 
         Deck deck = loadDeckFromCsvContent(csvContent);
 
@@ -90,17 +94,17 @@ public class DeckCsvLoader {
         // extract data from csvLine
         String categoryName = csvLine.get(0);
         String questionString = csvLine.get(1);
-        int rightAnswer = Integer.parseInt(csvLine.get(2));
+        //int rightAnswer = Integer.parseInt(csvLine.get(2));
         List<String> answers = createAnswersFrom(csvLine);
         // Create question
         Category category = deck.getCategoryWithName(categoryName);
-        Question question = new Question(category, questionString, answers, rightAnswer);
+        Question question = new Question(category, questionString, answers/*, rightAnswer*/);
         return question;
     }
 
     private List<String> createAnswersFrom(List<String> csvLine) {
         List<String> answers = new ArrayList<>();
-        for (int i = 3; i < csvLine.size(); i++) {
+        for (int i = ANSWERS_START_INDEX; i < csvLine.size(); i++) {
             answers.add(csvLine.get(i));
         }
         return answers;

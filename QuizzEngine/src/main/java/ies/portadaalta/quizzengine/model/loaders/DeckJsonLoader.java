@@ -75,10 +75,10 @@ public class DeckJsonLoader {
             JsonNode jsonQuestionNode = jsonCurrentQuestionNode.get("question");
             String question = jsonQuestionNode.get("question").asText();
             //System.out.println("Question: " + question);
-            int rightAnswer = jsonQuestionNode.get("rightAnswer").asInt();
+            //int rightAnswer = jsonQuestionNode.get("rightAnswer").asInt();
             JsonNode jsonAnswersNode = jsonQuestionNode.get("answers");
             List<String> answers = loadAnswersFrom(jsonAnswersNode);
-            Question currentQuestion = new Question(category, question, answers, rightAnswer);
+            Question currentQuestion = new Question(category, question, answers/*, rightAnswer*/);
             questions.add(currentQuestion);
         }
         return questions;
