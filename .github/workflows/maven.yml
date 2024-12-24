@@ -68,3 +68,29 @@ jobs:
         run: mvn -B package --file pom.xml
         working-directory: ./chatGPTQuestions
 
+  build_WebServer:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up JDK 21 for x64
+        uses: actions/setup-java@v4
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+          architecture: x64
+          cache: maven
+      - name: Install QuizzEngine dependency into the local repo
+        run: mvn install
+        working-directory: ./QuizzEngine
+      - name: Instal GameEngine dependency into the local repo
+        run: mvn install
+        working-directory: ./GameEngine
+      - name: Build Spring Boot WebServer with maven
+        run: |
+          export JSON_DECK_FILENAME=default.json
+          mvn -B package --file pom.xml
+        working-directory: ./GameEngine
+        
+        
