@@ -79,6 +79,7 @@ public class DeckJsonConverter {
         StringBuilder stringBuilder = new StringBuilder();
         appendBetweenQuotes(stringBuilder, category.getName());
         appendBetweenQuotes(stringBuilder, question.getQuestion());
+        appendBetweenQuotes(stringBuilder, Integer.toString(question.getRightAnswer()));
         for (int i = 0; i < question.getAnswers().size(); i++) {
             if (!isLastAnswer(question, i)) {
                 appendBetweenQuotes(stringBuilder, question.getAnswers().get(i)); // append comma
@@ -151,39 +152,42 @@ public class DeckJsonConverter {
 
         for (Question question : questionsForCategory) {
             String questionString = question.getQuestion();
+            int rightAnswer = question.getRightAnswer();
             List<String> answers = question.getAnswers();
 
-            Element questionElement = createQuestionElement(questionString, answers);
+            Element questionElement = createQuestionElement(questionString, answers, rightAnswer);
 
             questionsElement.addContent(questionElement);
         }
         return questionsElement;
     }
 
-    private Element createQuestionElement(String questionString, List<String> answers) {
+    private Element createQuestionElement(String questionString, List<String> answers, int rightAnswer) {
         Element questionElement = new Element(QUESTION_ELEMENT_TAG);
         questionElement.setAttribute(QUESTION_ELEMENT_QUESTION_ATTR, questionString);
 
-        Element answersElement = createAnswersElement(answers);
+        Element answersElement = createAnswersElement(answers, rightAnswer);
         questionElement.addContent(answersElement);
 
         return questionElement;
     }
 
-    private Element createAnswersElement(List<String> answers) {
+    private Element createAnswersElement(List<String> answers, int rightAnswer) {
         Element answersElement = new Element(ANSWERS_ELEMENT_TAG);
 
         for (int i = 0; i < answers.size(); i++) {
-            Element answerElement = createAnswerElement(answers, i);
+            Element answerElement = createAnswerElement(answers, rightAnswer, i);
             answersElement.addContent(answerElement);
         }
         return answersElement;
     }
 
-    private Element createAnswerElement(List<String> answers, int index) {
+    private Element createAnswerElement(List<String> answers, int rightAnswer, int index) {
         Element answerElement = new Element(ANSWER_ELEMENT_TAG);
         answerElement.setText(answers.get(index));
-
+        if (index == rightAnswer) {
+            answerElement.setAttribute(ANSWER_ELEMENT_RIGHTANSWER_ATTR, "true");
+        }
         return answerElement;
     }
 
@@ -224,6 +228,7 @@ public class DeckJsonConverter {
                 CREATE TABLE IF NOT EXISTS Answer(
                     answer text,
                     question text,
+                    rightAnswer integer,
                     CONSTRAINT PK_Answer PRIMARY KEY(question, answer),
                     CONSTRAINT FK_Answer_Question FOREIGN KEY(question) REFERENCES Question(question)
                 )
@@ -265,7 +270,7 @@ public class DeckJsonConverter {
         questions.stream().forEach( question -> {
             try {
                 preStatement.setString(1, question.getCategory().getName());
-                preStatement.setString(2, question.getQuestion());
+                preStatement.setString(1, question.getQuestion());
 
                 preStatement.executeUpdate();
 
@@ -286,8 +291,9 @@ public class DeckJsonConverter {
     private void saveAnswers(Connection conn, Question question) throws SQLException {
         String questionString = question.getQuestion();
         List<String> answers = question.getAnswers();
+        int rightAnswer = question.getRightAnswer();
 
-        String sql = "INSERT INTO Answer(answer, question) VALUES(?,?)";
+        String sql = "INSERT INTO Answer(answer, question, rightAnswer) VALUES(?,?,?)";
         PreparedStatement preStatement = conn.prepareStatement(sql);
 
         IntStream.range(0, answers.size()).forEach( i -> {
@@ -295,6 +301,7 @@ public class DeckJsonConverter {
                 String answer = answers.get(i);
                 preStatement.setString(1, answer);
                 preStatement.setString(2, questionString);
+                preStatement.setInt(3, (i==rightAnswer) ? 1 : 0);
 
                 preStatement.executeUpdate();
 
@@ -312,28 +319,31 @@ public class DeckJsonConverter {
     }
 
     private void saveCategories(Connection conn, Collection<Category> categories) throws SQLException {
-        String sql = "INSERT INTO Category(name, description) VALUES(?,?)";
-        PreparedStatement preStatement = conn.prepareStatement(sql);
+        for (Category category: categories) {
 
-        categories.stream().forEach( currentCategory -> {
+            String sql = "INSERT INTO Category(name, description) VALUES(?,?)";
+            PreparedStatement preStatement = conn.prepareStatement(sql);
 
-            try {
-                preStatement.setString(1, currentCategory.getName());
-                preStatement.setString(2, currentCategory.getName());
+            categories.stream().forEach( currentCategory -> {
 
-                preStatement.executeUpdate();
+                try {
+                    preStatement.setString(1, currentCategory.getName());
+                    preStatement.setString(2, currentCategory.getName());
 
-            } catch (SQLiteException sqliteException) {
-                if (sqliteException.getResultCode().message.contains("A PRIMARY KEY constraint failed")) { // Primary key already in use
-                    System.out.println("Primary key already in use for " + currentCategory.getName());
-                } else {
-                    throw new RuntimeException(sqliteException);
+                    preStatement.executeUpdate();
+
+                } catch (SQLiteException sqliteException) {
+                    if (sqliteException.getResultCode().message.contains("A PRIMARY KEY constraint failed")) { // Primary key already in use
+                        System.out.println("Primary key already in use for " + currentCategory.getName());
+                    } else {
+                        throw new RuntimeException(sqliteException);
+                    }
+                } catch (SQLException e) {
+                    throw new RuntimeException(e);
                 }
-            } catch (SQLException e) {
-                throw new RuntimeException(e);
-            }
 
-        });
+            });
+        }
     }
 
 }

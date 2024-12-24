@@ -84,7 +84,7 @@ class EngineTest {
 
         Question nextQuestion = engine.getNextQuestion(scienceCategory);
         assertTrue(nextQuestion.getQuestion().contains("Which is the most abundant element in the universe?"));
-        assertTrue(nextQuestion.isValidAnswer("Hydrogen"));
+        assertTrue(nextQuestion.isValidAnswer(2));
     }
 
     @Test
@@ -93,7 +93,7 @@ class EngineTest {
 
         Question nextQuestion = engine.getNextQuestion(scienceCategory);
         assertTrue(nextQuestion.getQuestion().contains("Which is the most abundant element in the universe?"));
-        assertFalse(nextQuestion.isValidAnswer("Oxigen"));
+        assertFalse(nextQuestion.isValidAnswer(0));
     }
 
     private Engine getEngineForScenario1() {
@@ -129,7 +129,8 @@ class EngineTest {
                         "Mount Everest",
                         "Teide",
                         "Annapurna",
-                        "K2")
+                        "K2"),
+                0
         );
 
         Question questionGeography2 = new Question(
@@ -139,7 +140,8 @@ class EngineTest {
                         "Rusia",
                         "United States of America",
                         "China",
-                        "Spain")
+                        "Spain"),
+                2
         );
 
         List<Question> geographyQuestions = List.of(questionGeography1, questionGeography2);
@@ -152,7 +154,8 @@ class EngineTest {
                         "Malaga",
                         "París",
                         "New York",
-                        "London")
+                        "London"),
+                1
         );
 
         Question questionArts2 = new Question(
@@ -162,7 +165,8 @@ class EngineTest {
                         "Vincent Van Gogh",
                         "Pablo Picasso",
                         "Andy Warhol",
-                        "Claude Monet")
+                        "Claude Monet"),
+                2
         );
 
         List<Question> artQuestions = List.of(questionArts1, questionArts2);
@@ -175,7 +179,8 @@ class EngineTest {
                         "100 years",
                         "101 years",
                         "99 years",
-                        "116 years")
+                        "116 years"),
+                3
         );
 
         Question questionHistory2 = new Question(
@@ -185,7 +190,8 @@ class EngineTest {
                         "1942",
                         "1940",
                         "1939",
-                        "1945")
+                        "1945"),
+                2
         );
 
         List<Question> historyQuestions = List.of(questionHistory1, questionHistory2);
@@ -198,7 +204,8 @@ class EngineTest {
                         "Toy Story",
                         "Snow White and the Seven Dwarfs",
                         "Bambi",
-                        "Fantasia")
+                        "Fantasia"),
+                1
         );
 
         Question questionEntertainment2 = new Question(
@@ -208,7 +215,8 @@ class EngineTest {
                         "Blue",
                         "Red",
                         "Black",
-                        "White")
+                        "White"),
+                1
         );
 
         List<Question> entertainmentQuestions = List.of(questionEntertainment1, questionEntertainment2);
@@ -219,17 +227,19 @@ class EngineTest {
                 "True or False? Electrons are smaller than atoms.",
                 List.of(
                         "False",
-                        "True")
+                        "True"),
+                1
         );
 
         Question questionScience2 = new Question(
                 scienceCategory,
                 "Which is the most abundant element in the universe?",
                 List.of(
-                        "Hydrogen",
                         "Oxigen",
                         "Helio",
-                        "Nitrogen")
+                        "Hydrogen",
+                        "Nitrogen"),
+                2
         );
 
         List<Question> scienceQuestions = List.of(questionScience1, questionScience2);
@@ -242,17 +252,19 @@ class EngineTest {
                         "Basketball",
                         "Soccer",
                         "Baseball",
-                        "Chess")
+                        "Chess"),
+                1
         );
 
         Question questionSport2 = new Question(
                 sportsCategory,
                 "The Olympics are held every how many years?",
                 List.of(
-                        "Every 4 years",
                         "Every year",
                         "Every leap year",
-                        "The Olympics were held just once in the history.")
+                        "Every 4 years",
+                        "The Olympics were held just once in the history."),
+                2
         );
 
         List<Question> sportQuestions = List.of(questionSport1, questionSport2);

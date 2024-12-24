@@ -29,7 +29,7 @@ public class DeckXmlLoader {
     public final static String QUESTION_ELEMENT_QUESTION_ATTR = "question";
     public final static String ANSWERS_ELEMENT_TAG = "answers";
     public final static String ANSWER_ELEMENT_TAG = "answer";
-    //public final static String ANSWER_ELEMENT_RIGHTANSWER_ATTR = "rightAnswer";
+    public final static String ANSWER_ELEMENT_RIGHTANSWER_ATTR = "rightAnswer";
 
 
     public DeckXmlLoader() {}
@@ -87,33 +87,30 @@ public class DeckXmlLoader {
             Element answersElement = questionElement.getChild(ANSWERS_ELEMENT_TAG);
 
             List<Element> answersListElement = answersElement.getChildren();
-            //Tuple2<List<String>, Integer> answersTuple = getAnswers(answersListElement);
-            List<String> answers = getAnswers(answersListElement);
-            Question currentQuestion = new Question(currentCategory, questionString, answers);
+            Tuple2<List<String>, Integer> answersTuple = getAnswers(answersListElement);
+            Question currentQuestion = new Question(currentCategory, questionString, answersTuple._1(), answersTuple._2());
 
             questions.add(currentQuestion);
         }
         return questions;
     }
 
-//    private Tuple2<List<String>, Integer> getAnswers(List<Element> answersListElement) throws JDOMException {
-    private List<String> getAnswers(List<Element> answersListElement) throws JDOMException {
+    private Tuple2<List<String>, Integer> getAnswers(List<Element> answersListElement) throws JDOMException {
         List<String> answers = new ArrayList<>();
-        //int rightAnswer = 0;
+        int rightAnswer = 0;
 
         for (int j = 0; j < answersListElement.size(); j++) {
             Element currentAnswerElement = answersListElement.get(j);
-            //Attribute rightAnswerAttribute = currentAnswerElement.getAttribute(ANSWER_ELEMENT_RIGHTANSWER_ATTR);
-            //if (rightAnswerAttribute!=null && rightAnswerAttribute.getBooleanValue()) {
-            //    rightAnswer = j;
-            //}
+            Attribute rightAnswerAttribute = currentAnswerElement.getAttribute(ANSWER_ELEMENT_RIGHTANSWER_ATTR);
+            if (rightAnswerAttribute!=null && rightAnswerAttribute.getBooleanValue()) {
+                rightAnswer = j;
+            }
             String answerString = currentAnswerElement.getText();
 
             answers.add(answerString);
         }
-        //Tuple2<List<String>, Integer> answersTuple = Tuple.of(answers, rightAnswer);
-        //return answersTuple;
-        return answers;
+        Tuple2<List<String>, Integer> answersTuple = Tuple.of(answers, rightAnswer);
+        return answersTuple;
     }
 
 
