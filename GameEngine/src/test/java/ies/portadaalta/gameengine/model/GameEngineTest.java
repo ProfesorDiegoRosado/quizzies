@@ -23,7 +23,7 @@ class GameEngineTest {
     void play() throws IOException {
         String gameName = "Game test";
 
-        Deck deck = createQuestionsDeck("Deck - GameEngine Main test");
+        Deck deck = createQuestionsDeck();
         List<Player> players  = createPlayers(deck);
         GameEngine gameEngine = new GameEngine(gameName, deck, players);
 
@@ -56,12 +56,12 @@ class GameEngineTest {
         return players;
     }
 
-    private Deck createQuestionsDeck(String name) throws IOException {
+    private Deck createQuestionsDeck() throws IOException {
         TestUtils testUtils = new TestUtils();
         String deckFilename = testUtils.getFileFromResources(TEST_DECK_JSON).getAbsolutePath();
 
         DeckJsonLoader deckJsonLoader = new DeckJsonLoader();
-        Deck deck = deckJsonLoader.loadFromFilename(name, deckFilename);
+        Deck deck = deckJsonLoader.loadFromFilename(deckFilename);
 
         return deck;
     }

@@ -114,7 +114,7 @@ public class Main {
             """;
 
         DeckJsonLoader deckJsonLoader = new DeckJsonLoader();
-        Deck deck = deckJsonLoader.loadFromString(name, JSON_STRING_EXAMPLE);
+        Deck deck = deckJsonLoader.loadFromString(JSON_STRING_EXAMPLE);
 
         return deck;
     }
