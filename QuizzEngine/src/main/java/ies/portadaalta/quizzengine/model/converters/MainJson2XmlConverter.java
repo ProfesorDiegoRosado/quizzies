@@ -14,7 +14,7 @@ public class MainJson2XmlConverter {
         String xmlFilename = "ChatGPT_trivial_database.xml";
 
         DeckJsonLoader jsonLoader = new DeckJsonLoader();
-        Deck deck = jsonLoader.loadFromFilename("Dummy Deck", jsonFilename);
+        Deck deck = jsonLoader.loadFromFilename(jsonFilename);
 
         DeckJsonConverter deckJsonConverter = new DeckJsonConverter();
         deckJsonConverter.write2Xml(deck, xmlFilename);

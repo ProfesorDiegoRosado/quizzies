@@ -17,7 +17,7 @@ public class MainJson2CsvConverter {
         String csvFilename = "ChatGPT_trivial_database.csv";
 
         DeckJsonLoader jsonLoader = new DeckJsonLoader();
-        Deck deck = jsonLoader.loadFromFilename("Dummy Deck", jsonFilename);
+        Deck deck = jsonLoader.loadFromFilename(jsonFilename);
 
         DeckJsonConverter deckJsonConverter = new DeckJsonConverter();
         deckJsonConverter.writeDeck2Csv(deck, csvFilename);

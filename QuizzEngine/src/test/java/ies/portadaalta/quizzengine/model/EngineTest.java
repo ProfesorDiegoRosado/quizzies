@@ -98,7 +98,7 @@ class EngineTest {
 
     private Engine getEngineForScenario1() {
 
-        Deck deck = new Deck("Scenario1 Deck", getCategoryListQuestionsMap(), new Random(RANDOM_SEED));
+        Deck deck = new Deck("Scenario1 Deck", "test", getCategoryListQuestionsMap(), new Random(RANDOM_SEED));
 
         Engine engine = new Engine(deck);
 

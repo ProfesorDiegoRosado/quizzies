@@ -40,16 +40,16 @@ public class DeckXmlLoader {
         return null;
     }
 
-    public Deck loadFromFile(String deckName, File file) throws IOException, JDOMException {
-        return loadFromFilename(deckName, file.getAbsolutePath().toString());
+    public Deck loadFromFile(File file) throws IOException, JDOMException {
+        return loadFromFilename(file.getAbsolutePath().toString());
     }
 
-    public Deck loadFromFilename(String deckName, String filename) throws IOException, JDOMException {
+    public Deck loadFromFilename(String filename) throws IOException, JDOMException {
         String fileContent = Files.readString(Paths.get(filename));
-        return loadFromString(deckName, fileContent);
+        return loadFromString(fileContent);
     }
 
-    public Deck loadFromString(String deckName, String xmlString) throws IOException, JDOMException {
+    public Deck loadFromString(String xmlString) throws IOException, JDOMException {
         SAXBuilder sax = new SAXBuilder();
         Document doc = sax.build(new StringReader(xmlString));
 
@@ -58,7 +58,7 @@ public class DeckXmlLoader {
 
         Map<Category, List<Question>> categoryQuestionsMap = getCategoryQuestionsMap(categoriesElement);
 
-        Deck deck = new Deck(deckName, categoryQuestionsMap);
+        Deck deck = new Deck("tmp","tmp", categoryQuestionsMap);
         return deck;
     }
 

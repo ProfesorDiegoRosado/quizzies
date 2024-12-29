@@ -16,7 +16,7 @@ public class DeckSQLiteLoader {
 
     public DeckSQLiteLoader() {}
 
-    public Deck loadFromDb(String deckName, String dbName) throws SQLException {
+    public Deck loadFromDb(String dbName) throws SQLException {
         String url = "jdbc:sqlite:" + dbName;
 
         Map<Category, List<Question>> categoryQuestionsMap = new HashMap<>();
@@ -31,7 +31,7 @@ public class DeckSQLiteLoader {
             }
         }
 
-        Deck deck = new Deck(deckName, categoryQuestionsMap);
+        Deck deck = new Deck("tmp", "tmp", categoryQuestionsMap);
         return deck;
     }
 

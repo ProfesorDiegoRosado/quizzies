@@ -19,7 +19,7 @@ class DeckSQLiteLoaderTest {
     void loadFromDb() throws SQLException {
         DeckSQLiteLoader deckSQLiteLoader = new DeckSQLiteLoader();
         String dbNameAbsolutePath = new TestUtils().getFileFromResources(DB_NAME).getAbsolutePath();
-        Deck deck = deckSQLiteLoader.loadFromDb("Deck from SQLite", dbNameAbsolutePath);
+        Deck deck = deckSQLiteLoader.loadFromDb(dbNameAbsolutePath);
 
         Set<Category> categories = deck.getCategories();
 

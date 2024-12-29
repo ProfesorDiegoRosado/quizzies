@@ -15,7 +15,7 @@ public class MainJson2SQLiteConverter {
         String dbName = "ChatGPT_trivial_database.db";
 
         DeckJsonLoader jsonLoader = new DeckJsonLoader();
-        Deck deck = jsonLoader.loadFromFilename("Dummy Deck", jsonFilename);
+        Deck deck = jsonLoader.loadFromFilename(jsonFilename);
 
         DeckJsonConverter deckJsonConverter = new DeckJsonConverter();
         deckJsonConverter.writeDeck2Sqlite(deck, dbName);

@@ -73,7 +73,7 @@ class DeckXmlLoaderTest {
     @Test
     void loadFromString() throws IOException, JDOMException {
         DeckXmlLoader deckXmlLoader = new DeckXmlLoader();
-        Deck deck = deckXmlLoader.loadFromString("Dummy test deck", XML_STRING_EXAMPLE);
+        Deck deck = deckXmlLoader.loadFromString( XML_STRING_EXAMPLE);
 
         Set<Category> categories = deck.getCategories();
 
@@ -90,7 +90,7 @@ class DeckXmlLoaderTest {
         DeckXmlLoader deckXmlLoader = new DeckXmlLoader();
         String xmlFileAbsolutePath = new TestUtils().getFileFromResources(XML_FILENAME).getAbsolutePath();
 
-        Deck deck = deckXmlLoader.loadFromFilename("Dummy test deck", xmlFileAbsolutePath);
+        Deck deck = deckXmlLoader.loadFromFilename(xmlFileAbsolutePath);
 
         Set<Category> categories = deck.getCategories();
 

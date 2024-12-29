@@ -62,7 +62,7 @@ public class DeckCsvLoader {
 
         Map<Category, List<Question>> categoryQuestionsMap = initCategoryQuestionsMap(csvContent);
 
-        Deck deck = new Deck("Dummy Deck", categoryQuestionsMap);
+        Deck deck = new Deck("Dummy Deck", "Test", categoryQuestionsMap);
 
         for (List<String> csvLine: csvContent) {
             Question question = createQuestionFrom(deck, csvLine);

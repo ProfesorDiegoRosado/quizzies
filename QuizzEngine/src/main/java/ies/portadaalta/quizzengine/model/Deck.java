@@ -7,10 +7,12 @@ import java.util.*;
 public class Deck {
 
     private final String name;
+    private final String description;
     private Map<Category, List<Question>> categoryQuestionsMap = new HashMap<>();
     private Random random = new Random();
 
     public Deck(String deckName,
+            String description,
             Category category1, List<Question> questions1,
             Category category2, List<Question> questions2,
             Category category3, List<Question> questions3,
@@ -19,6 +21,7 @@ public class Deck {
             Category category6, List<Question> questions6) {
 
         this.name = deckName;
+        this.description = description;
         categoryQuestionsMap.put(category1, questions1);
         categoryQuestionsMap.put(category2, questions2);
         categoryQuestionsMap.put(category3, questions3);
@@ -28,16 +31,19 @@ public class Deck {
     }
 
     public Deck(String deckName,
+                String description,
                 Map<Category, List<Question>> categoryQuestionsMap) {
 
-        this(deckName, categoryQuestionsMap, new Random());
+        this(deckName, description, categoryQuestionsMap, new Random());
     }
 
     public Deck(String deckName,
+                String description,
                 Map<Category, List<Question>> categoryQuestionsMap,
                 Random random) {
 
         this.name = deckName;
+        this.description = description;
         this.categoryQuestionsMap = categoryQuestionsMap;
         this.random = random;
     }
@@ -50,7 +56,15 @@ public class Deck {
         return name;
     }
 
-    public Category getNextCagetory() {
+    public String getDescription() {
+        return description;
+    }
+
+    public Map<Category, List<Question>> getCategoryQuestionsMap() {
+        return categoryQuestionsMap;
+    }
+
+    public Category getNextCategory() {
         List<Category> categories = getCategories().stream().toList();
         int categoryPosition = random.nextInt(categories.size());
         Category category = categories.get(categoryPosition);
@@ -87,7 +101,7 @@ public class Deck {
     }
 
     public Question getNextRandomQuestion() {
-        return getNextQuestion(getNextCagetory());
+        return getNextQuestion(getNextCategory());
     }
 
     private void assertCategoryExists(Category category) {

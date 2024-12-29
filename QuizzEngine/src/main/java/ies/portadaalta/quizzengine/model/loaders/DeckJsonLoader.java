@@ -30,27 +30,31 @@ public class DeckJsonLoader {
         return null;
     }
 
-    public Deck loadFromFile(String deckName, File file) throws IOException {
-        return loadFromFilename(deckName, file.getAbsolutePath().toString());
+    public Deck loadFromFile(File file) throws IOException {
+        return loadFromFilename(file.getAbsolutePath());
     }
 
-    public Deck loadFromFilename(String deckName, String filename) throws IOException {
+    public Deck loadFromFilename(String filename) throws IOException {
         String fileContent = Files.readString(Paths.get(filename));
-        return loadFromString(deckName, fileContent);
+        return loadFromString(fileContent);
     }
 
-    public Deck loadFromString(String deckName, String jsonString) throws IOException {
+    public Deck loadFromString(String jsonString) throws IOException {
         JsonNode jsonRootNode = mapper.readTree(jsonString);
 
+        String deckName = jsonRootNode.get("deckName").asText();
+        String deckDescription = jsonRootNode.get("deckDescription").asText();
+        JsonNode deckData = jsonRootNode.get("deck");
+
         Map<Category, List<Question>> categoryQuestionsMap = new HashMap<>();
-        for (int i = 0; i < jsonRootNode.size(); i++) {
-            JsonNode jsonDeckCategoryNode = jsonRootNode.get(i);
+        for (int i = 0; i < deckData.size(); i++) {
+            JsonNode jsonDeckCategoryNode = deckData.get(i);
             Category currentCategory = getCategoryFrom(jsonDeckCategoryNode, i);
             List<Question> questions = loadQuestionsFrom(currentCategory, jsonDeckCategoryNode);
             categoryQuestionsMap.put(currentCategory, questions);
         }
 
-        Deck deck = new Deck(deckName, categoryQuestionsMap);
+        Deck deck = new Deck(deckName, deckDescription, categoryQuestionsMap);
         return deck;
     }
 

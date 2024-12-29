@@ -18,73 +18,78 @@ class DeckJsonLoaderTest {
     private static final String JSON_FILENAME = "json/ChatGPT_trivial_database.json";
     private static final String JSON_FILENAME_WITH_COLORS = "json/ChatGPT_trivial_database_with_colors.json";
     private static final String JSON_STRING_EXAMPLE = """
-            [
-              {
-                "questions": [
-                  {
-                    "question": {
-                      "rightAnswer": 1,
-                      "question": "¿Cuál es la capital de España?",
-                      "answers": [
-                        "Barcelona",
-                        "Madrid",
-                        "Valencia",
-                        "Sevilla"
-                      ]
+            {
+              "deckName": "Testing deck",
+              "deckDescription": "A short deck just for testing purposes",
+              "deck":
+              [
+                {
+                  "questions": [
+                    {
+                      "question": {
+                        "rightAnswer": 1,
+                        "question": "¿Cuál es la capital de España?",
+                        "answers": [
+                          "Barcelona",
+                          "Madrid",
+                          "Valencia",
+                          "Sevilla"
+                        ]
+                      }
+                    },
+                    {
+                      "question": {
+                        "rightAnswer": 1,
+                        "question": "¿En qué país se encuentra la Torre Eiffel?",
+                        "answers": [
+                          "Italia",
+                          "Francia",
+                          "Alemania",
+                          "España"
+                        ]
+                      }
                     }
-                  },
-                  {
-                    "question": {
-                      "rightAnswer": 1,
-                      "question": "¿En qué país se encuentra la Torre Eiffel?",
-                      "answers": [
-                        "Italia",
-                        "Francia",
-                        "Alemania",
-                        "España"
-                      ]
+                  ],
+                  "category": "Geografía"
+                },
+                {
+                  "questions": [
+                    {
+                      "question": {
+                        "rightAnswer": 0,
+                        "question": "¿Cuál de las siguientes películas de Pixar se estrenó primero?",
+                        "answers": [
+                          "Toy Story",
+                          "Buscando a Nemo",
+                          "Los Increíbles",
+                          "Up"
+                        ]
+                      }
+                    },
+                    {
+                      "question": {
+                        "rightAnswer": 0,
+                        "question": "¿Quién es el protagonista de la serie de TV 'Breaking Bad'?",
+                        "answers": [
+                          "Walter White",
+                          "Jesse Pinkman",
+                          "Saul Goodman",
+                          "Skyler White"
+                        ]
+                      }
                     }
-                  }
-                ],
-                "category": "Geografía"
-              },
-              {
-                "questions": [
-                  {
-                    "question": {
-                      "rightAnswer": 0,
-                      "question": "¿Cuál de las siguientes películas de Pixar se estrenó primero?",
-                      "answers": [
-                        "Toy Story",
-                        "Buscando a Nemo",
-                        "Los Increíbles",
-                        "Up"
-                      ]
-                    }
-                  },
-                  {
-                    "question": {
-                      "rightAnswer": 0,
-                      "question": "¿Quién es el protagonista de la serie de TV 'Breaking Bad'?",
-                      "answers": [
-                        "Walter White",
-                        "Jesse Pinkman",
-                        "Saul Goodman",
-                        "Skyler White"
-                      ]
-                    }
-                  }
-                ],
-                "category": "Entretenimiento"
-              }
-            ]
+                  ],
+                  "category": "Entretenimiento"
+                }
+              ]
+            }
             """;
 
     @Test
     void loadFromString() throws IOException {
 
         DeckJsonLoader deckJsonLoader = new DeckJsonLoader();
-        Deck deck = deckJsonLoader.loadFromString("Dummy test deck", JSON_STRING_EXAMPLE);
+        Deck deck = deckJsonLoader.loadFromString(JSON_STRING_EXAMPLE);
 
         Set<Category> categories = deck.getCategories();
 
@@ -101,7 +106,7 @@ class DeckJsonLoaderTest {
     void loadFromFilename() throws IOException {
         DeckJsonLoader deckJsonLoader = new DeckJsonLoader();
         String jsonFileAbsolutePath = new TestUtils().getFileFromResources(JSON_FILENAME).getAbsolutePath();
-        Deck deck = deckJsonLoader.loadFromFilename("Dummy test deck", jsonFileAbsolutePath);
+        Deck deck = deckJsonLoader.loadFromFilename(jsonFileAbsolutePath);
 
         Set<Category> categories = deck.getCategories();
 
@@ -122,7 +127,7 @@ class DeckJsonLoaderTest {
     void loadFromFilenameWithColors() throws IOException {
         DeckJsonLoader deckJsonLoader = new DeckJsonLoader();
         String jsonFileAbsolutePath = new TestUtils().getFileFromResources(JSON_FILENAME_WITH_COLORS).getAbsolutePath();
-        Deck deck = deckJsonLoader.loadFromFilename("Dummy test deck", jsonFileAbsolutePath);
+        Deck deck = deckJsonLoader.loadFromFilename(jsonFileAbsolutePath);
 
         Set<Category> categories = deck.getCategories();
 
