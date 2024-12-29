@@ -1,20 +1,6 @@
-package ies.portadata.WebServer.stomp.config;
+package ies.portadaalta.webserver.config;
 
-import ies.portadaalta.gameengine.model.GameEngine;
-import ies.portadaalta.gameengine.model.Player;
-import ies.portadaalta.quizzengine.model.Deck;
-import ies.portadaalta.quizzengine.model.loaders.DeckJsonLoader;
-import ies.portadata.WebServer.WebServerApplication;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.messaging.simp.config.MessageBrokerRegistry;
-import org.springframework.web.socket.config.annotation.EnableWebSocketMessageBroker;
-import org.springframework.web.socket.config.annotation.StompEndpointRegistry;
-import org.springframework.web.socket.config.annotation.WebSocketMessageBrokerConfigurer;
-
-import java.io.*;
-import java.util.List;
-
+/*
 @Configuration
 @EnableWebSocketMessageBroker
 public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
@@ -29,7 +15,7 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
 
         DeckJsonLoader deckJsonLoader = new DeckJsonLoader();
         String fileContent = String.join("\n",deckBufferedReader.lines().toList());
-        Deck deck = deckJsonLoader.loadFromString("Deck de prueba", fileContent);
+        Deck deck = deckJsonLoader.loadFromString(fileContent);
         this.deck = deck;
 
     }
@@ -49,13 +35,16 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
         return deck;
     }
 
+    /*
     @Bean
     public GameEngine getGameEngine() {
         Player player = new Player("Player1", deck.getCategories());
         GameEngine gameEngine = new GameEngine("Test Game", deck, List.of(player));
         return gameEngine;
     }
+     */
 
+/*
 
     private static BufferedReader getFileFromResources(String filename) {
         ClassLoader classLoader = WebServerApplication.class.getClassLoader();
@@ -65,3 +54,5 @@ public class WebSocketConfig implements WebSocketMessageBrokerConfigurer {
     }
 
 }
+
+ */

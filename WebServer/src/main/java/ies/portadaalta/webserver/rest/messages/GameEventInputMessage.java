@@ -1,4 +1,4 @@
-package ies.portadata.WebServer.stomp.messages;
+package ies.portadaalta.webserver.rest.messages;
 
 import java.util.ArrayList;
 import java.util.List;

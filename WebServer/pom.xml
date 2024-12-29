@@ -43,7 +43,7 @@
 
 		<dependency>
 			<groupId>ies.portadaalta</groupId>
-			<artifactId>GameEngine</artifactId>
+			<artifactId>QuizzEngine</artifactId>
 			<version>0.0.1</version>
 		</dependency>
 	</dependencies>

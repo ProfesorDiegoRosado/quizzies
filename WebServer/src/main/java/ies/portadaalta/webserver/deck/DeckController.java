@@ -1,30 +1,36 @@
-package ies.portadata.WebServer.stomp.controllers;
+package ies.portadaalta.webserver.deck;
 
-import ies.portadaalta.gameengine.model.GameEngine;
-import ies.portadaalta.quizzengine.model.Category;
-import ies.portadaalta.quizzengine.model.Deck;
-import ies.portadaalta.quizzengine.model.Question;
-import ies.portadata.WebServer.stomp.messages.GameEventInputMessage;
-import ies.portadata.WebServer.stomp.messages.GameEventOutputMessage;
+//import ies.portadaalta.gameengine.model.GameEngine;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.messaging.handler.annotation.MessageMapping;
-import org.springframework.messaging.handler.annotation.SendTo;
-import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 
 import java.util.List;
 import java.util.Random;
-import java.util.Set;
 
 
-@Controller
-public class GameEventsController {
+@RestController
+public class DeckController {
+
+
+    private DeckRepository deckRepository;
+    //private GameEngine gameEngine;
+    //private Deck deck;
+    //private final Random rand = new Random();
 
     @Autowired
-    private GameEngine gameEngine;
-    private Deck deck;
-    private Random rand = new Random();
+    public DeckController(DeckRepository deckRepository) {
+        this.deckRepository = deckRepository;
+    }
 
+    @GetMapping(path = "${apiPrefix}/decks/info")
+    public List<DeckInfo> getDecks() {
+        return deckRepository.getDecksInfo();
+    }
+
+
+    /*
     @MessageMapping("/gameevent")
     @SendTo("/topic/gameevent")
     public GameEventOutputMessage gameEvent(GameEventInputMessage gameEvent) throws Exception {
@@ -45,6 +51,8 @@ public class GameEventsController {
 
         }
     }
+
+     */
 
 
 }
