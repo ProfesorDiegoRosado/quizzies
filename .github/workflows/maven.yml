@@ -84,9 +84,6 @@ jobs:
       - name: Install QuizzEngine dependency into the local repo
         run: mvn install
         working-directory: ./QuizzEngine
-      - name: Install GameEngine dependency into the local repo
-        run: mvn install
-        working-directory: ./GameEngine
       - name: Build Spring Boot WebServer with maven
         run: |
           export JSON_DECK_FILENAME=default.json
