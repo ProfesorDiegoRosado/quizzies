@@ -16,8 +16,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-@Configuration
-@ComponentScan("ies.portadaalta.webserver")
+//@Configuration
+@ComponentScan("ies.portadaalta.webserver.deck")
 @Repository
 public class DeckRepository {
 
@@ -28,7 +28,7 @@ public class DeckRepository {
     private static final DeckJsonLoader deckJsonLoader = new DeckJsonLoader();
 
     // Attributes
-    private final List<DeckInfo> decksInfo = new ArrayList<>();
+    private final List<Deck> decks = new ArrayList<>();
 
 
     public DeckRepository() throws IOException {
@@ -36,13 +36,10 @@ public class DeckRepository {
     }
 
     private void load() throws IOException {
-        Path fullResourcesPath = getResourcesFullPath();
-
-        List<Path> decksPath = getDecksInfoPaths(fullResourcesPath);
-
+        List<Path> decksPath = getDecksPaths(getResourcesFullPath());
         for (Path deckPath : decksPath) {
-            DeckInfo deckInfo = loadDeckInfoFromFile(deckPath);
-            decksInfo.add(deckInfo);
+            Deck deck = loadDeckFromFile(deckPath);
+            decks.add(deck);
         }
     }
 
@@ -53,7 +50,7 @@ public class DeckRepository {
         return fullResourcesPath;
     }
 
-    private List<Path> getDecksInfoPaths(Path path) throws IOException {
+    private List<Path> getDecksPaths(Path path) throws IOException {
         if (!Files.isDirectory(path)) {
             throw new IllegalArgumentException("Path must be a directory!");
         }
@@ -69,12 +66,21 @@ public class DeckRepository {
         return result;
     }
 
-    private DeckInfo loadDeckInfoFromFile(Path deckPath) throws IOException {
+    private Deck loadDeckFromFile(Path deckPath) throws IOException {
         Deck deck = deckJsonLoader.loadFromFile(deckPath.toFile());
-        return new DeckInfo(deck);
+        return deck;
+    }
+
+    public List<Deck> getDecks() {
+        return decks;
+    }
+
+    public Deck getDeckByName(String name) {
+        return decks.stream().filter(deck -> deck.getName().equals(name)).findFirst().orElse(null);
     }
 
     public List<DeckInfo> getDecksInfo() {
+        List<DeckInfo> decksInfo = decks.stream().map(DeckInfo::new).toList();
         return decksInfo;
     }
 

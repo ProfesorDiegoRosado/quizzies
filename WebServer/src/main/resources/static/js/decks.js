@@ -6,52 +6,40 @@ function loadDecks() {
     }).then(
         response => {
             response.json().then(
-                data =>{
-
+                data => {
                     console.log(data);
-                    //if (data.length > 0){
-                    /*
-                        var temp = "";
+                    const $deckList = $('#deck-list');
 
-                        data.forEach((x) => {
-                            temp += "<tr>";
-                            temp += "<td>"+ x.team +"</td>";
-                            temp += "<td>"+ x.played +"</td>";
-                            temp += "<td>"+ x.win +"</td>";
-                            temp += "<td>"+ x.draw +"</td>";
-                            temp += "<td>"+ x.loss +"</td>";
-                            temp += "<td>"+ x.goalsFor +"</td>";
-                            temp += "<td>"+ x.goalsAgainst +"</td>";
-                            temp += "<td>"+ x.points +"</td>";
-                            temp += "</tr>"
-                        });
-                     */
+                    data.forEach(deck => {
+                        const categories = Object.entries(deck.categoriesNumQuestionsMap)
+                            .map(([category, count]) => `${category} (${count})`)
+                            .join(', ');
 
+                        const row = `
+                          <tr onclick="onClickTableRow(this)">
+                            <td>${deck.name}</td>
+                            <td>${deck.description}</td>
+                            <td>${categories}</td>
+                            <td>${deck.numQuestions}</td>
+                          </tr>
+                        `;
 
-                        const $deckList = $('#deck-list');
+                        $deckList.append(row);
+                    });
 
-                        data.forEach(deck => {
-                            const categories = Object.entries(deck.categoriesNumQuestionsMap)
-                                .map(([category, count]) => `${category} (${count})`)
-                                .join(', ');
-
-                            const row = `
-                              <tr>
-                                <td>${deck.name}</td>
-                                <td>${deck.description}</td>
-                                <td>${categories}</td>
-                                <td>${deck.numQuestions}</td>
-                              </tr>
-                            `;
-
-                            $deckList.append(row);
-                        });
-
-                        //document.getElementById("data").innerHTML = temp;
-                    //}
                 }
             )
-        })
+        }
+    )
+}
+
+function onClickTableRow(row) {
+    alert("Row index is " + row.rowIndex);
+
+    const deckName = row.childNodes[1].textContent;
+    const urlEncodedDeckName = encodeURIComponent(deckName)
+
+    location.href = `http://localhost:8080/game.html?deckName=${urlEncodedDeckName}`
 }
 
 // On page load
