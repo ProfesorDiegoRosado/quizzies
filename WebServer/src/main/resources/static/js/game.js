@@ -1,7 +1,37 @@
-  // Utils
-  function randomNumber(min, max) {
-    return Math.floor(Math.random() * (max - min)) + min;
-  }
+
+  // Global
+  // toast notifications
+  const toastMessages = new Notyf({
+    types: [
+      {
+        type: 'rightAnswer',
+        position: {
+          y: 'top'
+        },
+        background: 'LimeGreen',
+        duration: 2000,
+        dismissible: true
+      },
+      {
+        type: 'wrongAnswer',
+        position: {
+          y: 'top'
+        },
+        background: 'IndianRed',
+        duration: 2000,
+        dismissible: true
+      },
+      {
+        type: 'categoryDone',
+        position: {
+          y: 'top'
+        },
+        background: 'Blue',
+        duration: 2000,
+        dismissible: true
+      }
+    ]
+  });
 
   // Variables
   let deck;
@@ -41,12 +71,32 @@
     if (selectedOption === question.rightAnswer) {
       score[currentCategory]++;
       updateScore();
-      alert("¡Correcto!");
+      toastAnswer(true);
     } else {
-      alert("Incorrecto.");
+      toastAnswer(false);
     }
     nextQuestionEvent();
   }
+
+  function toastAnswer(right) {
+    // Create an instance of Notyf
+    var type;
+    var message;
+    if (right) {
+      type = 'rightAnswer';
+      message = '¡Correcto!'
+    } else {
+      type = 'wrongAnswer';
+      message = '¡Incorrecto!'
+    }
+
+    toastMessages.open({
+      type: type,
+      message: message
+    });
+
+  }
+
 
   function updateScore() {
     Object.keys(score).forEach(categoryName => {
@@ -178,6 +228,10 @@
     updateRound();
 
     if ((currentCategory in score) && (score[currentCategory] >= 3)) {
+      toastMessages.open({
+        type: 'categoryDone',
+        message: `Categoria <strong>${currentCategory}</strong> completada`
+      });
       catIndex = getIndexOfCategory(currentCategory);
       $("#quesito-cat-" + catIndex + " > svg > path").css({ fill: colorsByCategory[currentCategory] })
       loadNextQuestion();
@@ -190,6 +244,11 @@
     let filtered_score = Object.entries(score).filter(([name, points]) => points < 3);
     let result = filtered_score.map(x => x[0])
     return result;
+  }
+
+  // Utils
+  function randomNumber(min, max) {
+    return Math.floor(Math.random() * (max - min)) + min;
   }
 
 
