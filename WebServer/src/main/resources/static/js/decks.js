@@ -1,7 +1,7 @@
 
 
 function loadDecks() {
-    fetch("http://localhost:8080/api/decks/info", {
+    fetch(document.location.origin + "/api/decks/info", {
         "method": "GET"
     }).then(
         response => {
@@ -39,7 +39,7 @@ function onClickTableRow(row) {
     const deckName = row.childNodes[1].textContent;
     const urlEncodedDeckName = encodeURIComponent(deckName)
 
-    location.href = `http://localhost:8080/game.html?deckName=${urlEncodedDeckName}`
+    location.href = document.location.origin + `/game.html?deckName=${urlEncodedDeckName}`
 }
 
 // On page load
