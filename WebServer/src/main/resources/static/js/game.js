@@ -150,7 +150,7 @@
 
   // Function to call the REST API
   async function loadDeckFromAPI(deckName) {
-    const endpoint = `http://localhost:8080/api/deck/${encodeURIComponent(deckName)}`;
+    const endpoint = document.location.origin + `/api/deck/${encodeURIComponent(deckName)}`;
     try {
       const response = await fetch(endpoint, {
         method: 'GET',
