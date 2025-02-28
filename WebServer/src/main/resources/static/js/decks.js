@@ -34,7 +34,7 @@ function loadDecks() {
 }
 
 function onClickTableRow(row) {
-    alert("Row index is " + row.rowIndex);
+    //alert("Row index is " + row.rowIndex);
 
     const deckName = row.childNodes[1].textContent;
     const urlEncodedDeckName = encodeURIComponent(deckName)
