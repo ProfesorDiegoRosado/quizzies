@@ -81,15 +81,7 @@ Once the GameEngine jar is installed in our local maven repository we go to the 
 $ cd ../WebServer
 ```
 
-Before running our WebServer application we have to set our environment variable that defines which deck we will use, referring to its file name.
-
-For the case that we are going to use, we will have to put
-
-```console
-$ export JSON_DECK_FILENAME=default.json
-```
-
-Once the environment variable is created we can launch the application with the command
+We can launch the application with the command
 
 ```console
 $ mvn clean spring-boot:run
