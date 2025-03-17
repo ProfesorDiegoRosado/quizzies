@@ -1,0 +1,1439 @@
+{
+  "deckName" : "Preguntas del formulario",
+  "deckDescription" : "Preguntas creadas por los alumnos utilizando el formulario",
+  "deck" : [ {
+    "category" : "Economía",
+    "questions" : [ {
+      "question" : {
+        "question" : "¿Cuáles son las cuatro variables del marketing mix?",
+        "rightAnswer" : 0,
+        "answers" : [ "Producto, precio, distribución y comunicación.", "Publicidad, relaciones públicas, merchandising y promoción.", "Oferta, demanda, mercado y equilibrio.", "Producto, publicidad, oferta y demanda." ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cuál de los siguientes elementos se considera parte del activo corriente en un balance de situación?",
+        "rightAnswer" : 0,
+        "answers" : [ "Productos terminados", "Maquinaria", "Mobiliario", "Construcciones" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cuál es la principal diferencia entre ser autónomo y crear una Sociedad Limitada (SL)?  ",
+        "rightAnswer" : 0,
+        "answers" : [ "El autónomo responde con su patrimonio personal, mientras que en una SL la responsabilidad está limitada al capital aportado.  ", "La SL paga menos impuestos que un autónomo en todos los casos.", "Ser autónomo requiere más trámites que constituir una SL.  ", "Una SL no puede tener un solo socio." ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué se entiende por autofinanciación en el ámbito financiero de la empresa?",
+        "rightAnswer" : 0,
+        "answers" : [ "Generación de recursos propios a través de beneficios retenidos.", "Obtención de recursos financieros a través de préstamos bancarios.", "Obtención de recursos financieros a través de los proveedores.", "Venta de activos no corrientes para obtener liquidez." ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cuál de estas opciones no se tiene en cuenta a la hora de decidir el emplazamiento de la parte industrial de nuestra empresa? (Localización industrial) ",
+        "rightAnswer" : 0,
+        "answers" : [ "Proximidad al cliente ", "El acceso a materias primas y otros suministros en caso de que estas sean difíciles de transportar ", "Infraestructuras, transportes y comunicaciones", "Existencia de industria auxiliar y de asistencia técnica" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cuál es una ventaja de una Sociedad Anónima (SA) frente a una Sociedad Limitada (SL)?  ",
+        "rightAnswer" : 0,
+        "answers" : [ "Mayor facilidad para atraer inversores y ampliar capital. ", "Menos requisitos administrativos y contables. ", "No requiere capital mínimo para su constitución.  ", "Los socios responden con su patrimonio personal ante deudas." ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué representa el Valor Actual Neto (VAN) en la evaluación de un proyecto de inversión?",
+        "rightAnswer" : 0,
+        "answers" : [ "La diferencia entre la inversión inicial y el valor actual de los flujos de caja futuros.", "La suma de todos los flujos de caja futuros sin descontar.", "El tiempo que tarda en recuperarse la inversión inicial.", "La tasa de rendimiento que igual el valor actual de los flujos de caja futuros con la inversión inicial." ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cuál de los siguientes elementos se considera un activo corriente en el balance de una empresa?",
+        "rightAnswer" : 0,
+        "answers" : [ "A) Mercadería", "B) Terrenos y construcciones\n", "C) Capital social", "D) Deuda a largo plazo" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cuál es el principal objetivo de una empresa en una economía de mercado?",
+        "rightAnswer" : 0,
+        "answers" : [ "Generar beneficios", "Eliminar a la competencia", " Aumentar los impuestos", "Reducir el empleo" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Que es la innovación ?",
+        "rightAnswer" : 0,
+        "answers" : [ "Todas las correctas ", "La mejora de los productos o servicios existentes", "La introducción de nuevas tecnologías o procesos", "La creación de nuevos productos o servicios" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿En cual de las siguientes estrategias incluirías la deslocalización como parte esencial?",
+        "rightAnswer" : 0,
+        "answers" : [ "Estrategia de liderazgo en costes", "Estrategia de diferenciación de producto", "Estrategia de segmentación", "Todas las respuestas son correctas " ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué documento recoge los ingresos y gastos de una empresa durante un período determinado?",
+        "rightAnswer" : 0,
+        "answers" : [ "Cuenta de perdidas y ganancias", "Factura ", "Plan de negocio", "Balance de situación " ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué representa el patrimonio neto de una empresa?",
+        "rightAnswer" : 0,
+        "answers" : [ "La diferencia entre los activos y pasivos", "Los recursos financieros aportados por los bancos\n", " La cantidad total de activos de la empresa\n", "Los ingresos obtenidos en un período contable\n" ]
+      }
+    }, {
+      "question" : {
+        "question" : "1. ¿Cuál es una de las funciones sociales de la empresa?",
+        "rightAnswer" : 0,
+        "answers" : [ "b) Coordinar, dirigir y controlar el proceso de producción. ✅", "a) Especular en los mercados financieros.", "c) Aumentar los precios sin mejorar los productos.", "d) Reducir el número de trabajadores para maximizar beneficios." ]
+      }
+    }, {
+      "question" : {
+        "question" : "2. ¿Qué frase se adapta mejor al concepto de empresa?",
+        "rightAnswer" : 0,
+        "answers" : [ "a) Es una unidad económica de producción de bienes y servicios. ✅", "b) Una organización cuya actividad es la inversión en inmuebles para especular.", "c) Una unidad dedicada al consumo de bienes y servicios a cambio de un precio.", "d) Unidad básica de inversión." ]
+      }
+    }, {
+      "question" : {
+        "question" : "3. ¿Qué función tiene la comercialización dentro de una empresa?",
+        "rightAnswer" : 0,
+        "answers" : [ "b) Aproximar los bienes y servicios al consumidor. ✅", "a) Transformar materias primas en productos terminados.", "c) Gestionar el personal y su formación.", "d) Captar fondos para la empresa." ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cuál de las siguientes cuentas pertenece al grupo del pasivo?",
+        "rightAnswer" : 0,
+        "answers" : [ "Proveedores", "Maquinaria", "Caja", "Clientes" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cual de estas etapas de crecimiento se caracteriza por tener mayor volumen de ventas?",
+        "rightAnswer" : 0,
+        "answers" : [ "Fase de madurez", "Fase de crecimiento", "Fase de introducción ", "Fase de declive" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Las personas jurídicas",
+        "rightAnswer" : 0,
+        "answers" : [ "Personas creadas por la ley que tienen sus propios derechos y obligaciones", "Tienen los mismos derechos y obligaciones que sus creadores", "Son personas naturales", "No tienen representante" ]
+      }
+    }, {
+      "question" : {
+        "question" : "La empresa individual está formada por",
+        "rightAnswer" : 0,
+        "answers" : [ "Una personas física", "Una asociación de empresarios", "Una sociedad", "Está regulada por la Ley de Sociedades Individuales" ]
+      }
+    }, {
+      "question" : {
+        "question" : "La Sociedad Anónima es",
+        "rightAnswer" : 0,
+        "answers" : [ "Capitalista", "Personalista", "Especial", "De interés social" ]
+      }
+    }, {
+      "question" : {
+        "question" : "La responsabilidad mancomunada implica que cada socio responde por las deudas",
+        "rightAnswer" : 0,
+        "answers" : [ "Según su aportación social", "Por el total y después exige su parte al resto de socios", "Primero a la sociedad y después al socio", "Ninguna es correcta" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Para constituir una sociedad es necesario",
+        "rightAnswer" : 0,
+        "answers" : [ "Inscribirla en el registro mercantil", "Inscribirla en el registro civil", "No es necesario ningún trámite", "Todas las anteriores son correctas" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Por qué impuesto tributan las sociedades",
+        "rightAnswer" : 0,
+        "answers" : [ "Impuesto de Sociedades", "IRPF", "IVA", "IBI" ]
+      }
+    }, {
+      "question" : {
+        "question" : "La Sociedad Colectiva",
+        "rightAnswer" : 0,
+        "answers" : [ "Están formadas por 2 o más socios", "Están formadas por 1 único socio", "Pueden tener cualquier número de socios", "Tienen mínimo 3 socios" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Los socios comanditarios",
+        "rightAnswer" : 0,
+        "answers" : [ "Solo aportan capital", "Aportan trabajo", "Aportan trabajo y capital", "No existen dichos socios" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Cuáles son las sociedades capitalistas",
+        "rightAnswer" : 0,
+        "answers" : [ "Sociedad Anónima, Limitada y Comanditaria por acciones", "Sociedad Anónima y Comanditaria simple", "Sociedad Anónima y cooperativa", "Sociedad Colectiva y Anónima" ]
+      }
+    }, {
+      "question" : {
+        "question" : "La junta general de accionistas en la Sociedad Anónima",
+        "rightAnswer" : 0,
+        "answers" : [ "Todas las anteriores son correctas", "Existen dos tipos: general ordinaria y extraordinaria", "Junta general ordinaria: se convoca los 6 primeros meses", "La junta extraordinaria es toda junta no prevista" ]
+      }
+    }, {
+      "question" : {
+        "question" : "En una Sociedad Colectiva",
+        "rightAnswer" : 0,
+        "answers" : [ "Ninguna de las anteriores son correctas", "Los socios industriales participan en la gestión de la sociedad", "Los socios colectivos no participan en la gestión de la sociedad", "El nombre debe incluir las siglas S. en C. o S. Com." ]
+      }
+    }, {
+      "question" : {
+        "question" : "Cuál es la afirmación correcta",
+        "rightAnswer" : 0,
+        "answers" : [ "La sociedad colectiva no necesita un capital mínimo para su constitución", "Los socios de una sociedad anónima tienen responsabilidad ilimitada", "Las sociedades laborales requieren un mínimo de tres socios", "La sociedad comanditaria es capitalista" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Cuál es la afirmación correcta",
+        "rightAnswer" : 0,
+        "answers" : [ "Ninguna de las anteriores es correcta", "Las cooperativas de primer grado están formadas por personas jurídicas", "Número de socios mínimo en las cooperativas de primer grado es 2", "Sociedad Laboral: compuesta por socios trabajadores e industriales" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Es la persona física o jurídica que toma la decisión de invertir",
+        "rightAnswer" : 0,
+        "answers" : [ "Sujeto", "Objeto", "Ingresos", "Tiempo" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Son los cobros, presentes y futuros, que el inversor espera que se originen como consecuencia de la inversión",
+        "rightAnswer" : 0,
+        "answers" : [ "Ingresos", "Pago de la inversión", "Tiempo", "Objeto de la inversión" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Las fuentes de financiación se pueden clasificar atendiendo a diferentes criterios:",
+        "rightAnswer" : 0,
+        "answers" : [ "Todas son correctas", "Según la titularidad de los fondos", "Según su plazo de vencimiento", "Según se generen dentro o fuera de la empresa" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Algunos de los elementos patrimoniales que forman parte de la estructura económica de la empresa son:",
+        "rightAnswer" : 0,
+        "answers" : [ "A y C son correctas", "Aplicaciones informáticas", "Capital social", "Mercaderías" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Está formado por bienes y derechos que tienen por objeto permanecer en la empresa más de un ejercicio económico:",
+        "rightAnswer" : 0,
+        "answers" : [ "Activo no corriente", "Activo corriente", "Patrimonio Neto", "Pasivo corriente" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Forman parte del Patrimonio Neto:",
+        "rightAnswer" : 0,
+        "answers" : [ "Resultado del ejercicio", "Proveedores de inmovilizado a largo plazo", "Obligaciones y bonos a corto plazo", "Caja" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Forman parte del activo corriente:",
+        "rightAnswer" : 0,
+        "answers" : [ "Clientes, efectos comerciales a cobrar", "Terrenos", "Instalaciones técnicas", "Elementos de transporte" ]
+      }
+    } ]
+  }, {
+    "category" : "Literatura",
+    "questions" : [ {
+      "question" : {
+        "question" : "¿Quién escribió la vida es sueño?",
+        "rightAnswer" : 0,
+        "answers" : [ "Calderón de la Barca", "Góngora", "Quevedo", "San Juan de la Cruz" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Quién escribió Coplas a la muerte de su padre?",
+        "rightAnswer" : 0,
+        "answers" : [ "Jorge Manrique", "Jorge Manrike", "Villalobos", "Celestina" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué tipo de palabras son \"activo e inactivo\"?",
+        "rightAnswer" : 0,
+        "answers" : [ "antónimas", "polisémicas", "sinónimas", "homónimas" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Cuál es un género literario?",
+        "rightAnswer" : 0,
+        "answers" : [ "Lírica", "expositivo", "narrativo", "descriptivo" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Cuál es un ejemplo de metáfora?",
+        "rightAnswer" : 0,
+        "answers" : [ "Me estoy ahogando en problemas", "Hoy es soleado", "Ni se te ocurra", "Ven" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿A qué obra literaria pertenece el personaje Hermione?",
+        "rightAnswer" : 0,
+        "answers" : [ "Harry Potter", "El Señor de los Anillos", "El Mago de OZ", "Crepúsculo" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Cuál de éstas es una aliteración?",
+        "rightAnswer" : 0,
+        "answers" : [ "Un no sé qué que quedan balbuceando", "Un relámpago apagado", "Yo no sé pero existo", "En cuanto a usted, pobrecita" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Pon un ejemplo de Naturalismo",
+        "rightAnswer" : 0,
+        "answers" : [ "The Open Boat", "Corán", "Iluminiscencia en verano", "Harry Potter" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Quién escribió Caperucita en Manhattan?",
+        "rightAnswer" : 0,
+        "answers" : [ "Carmen Martín Gaite", "JK Rowling", "Gabriel García Marquez", "Rosa Montero" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Quién escribió El Quijote?",
+        "rightAnswer" : 0,
+        "answers" : [ "Cervantes", "Quijote", "Sancho", "Alhaurín" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Quién escribió Harry Potter?",
+        "rightAnswer" : 0,
+        "answers" : [ "JK Rowling", "Julie Andrews", "William Nicholson", "Harold Pinter" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿A qué categoría gramatical pertenece exquisitamente?",
+        "rightAnswer" : 0,
+        "answers" : [ "Adverbio", "Verbo", "Sustantivo", "Adjetivo" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cuándo murió Cervantes?",
+        "rightAnswer" : 0,
+        "answers" : [ "22 de abril de 1616", "5 marzo de 1534", "4 de octubre de 1534", "23 de julio de 1365" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Cual es un diptongo",
+        "rightAnswer" : 0,
+        "answers" : [ "desierto", "soledad", "Martín", "Lorca" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿En cuál de las siguientes palabras hay un error?",
+        "rightAnswer" : 0,
+        "answers" : [ "contra más lo digo ", "Navidad", "absorber", "exhibición" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿A qué siglo pertenece la Celestina?",
+        "rightAnswer" : 0,
+        "answers" : [ "XV", "XVI", "XVII", "XIV" ]
+      }
+    } ]
+  }, {
+    "category" : "Francés",
+    "questions" : [ {
+      "question" : {
+        "question" : "¿Qué escritor francés escribió \"Madame Bovary?",
+        "rightAnswer" : 0,
+        "answers" : [ "Gustave Flaubert", "Émile Zola", "Victor Hugo", "Honoré de Balzac" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué ave representa a Francia?",
+        "rightAnswer" : 0,
+        "answers" : [ "El gallo", "La gallina", "El pato", "El águila" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Porqué otro nombre se conoce a Francia?",
+        "rightAnswer" : 0,
+        "answers" : [ "El Hexágono", "El Triángulo", "El Octágono", "El Pentágono" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué evento ciclista anual se celebra en Francia?",
+        "rightAnswer" : 0,
+        "answers" : [ "El Tour de Francia", "Roland-Garros", "Las 24 horas de Le Mans", "Maratón de París" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cuál es el monumento más visitado de Francia?",
+        "rightAnswer" : 0,
+        "answers" : [ "La Torre Eiffel", "El Arco de Triunfo", "El Monte Saint-Michel", "La catedral de Notre Dame" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cómo se llama la principal avenida de París?",
+        "rightAnswer" : 0,
+        "answers" : [ "Los Campos Elíseos", "La avenida George V", "La avenida Kléber", "La avenida de la Ópera" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿En cuántos distritos está dividido París?",
+        "rightAnswer" : 0,
+        "answers" : [ "En 20 distritos", "En 19 distritos", "En 15 distritos", "En 30 distritos" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cómo se llama la universidad más antigua de Francia fundada en 1257?",
+        "rightAnswer" : 0,
+        "answers" : [ "La Sorbona", "París Descartes", "París Diderot", "Panthéon-Assas" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué es un \"croque-monsieur\"?",
+        "rightAnswer" : 0,
+        "answers" : [ "Un sándwich de pan de molde caliente  de jamón y queso.", "Un sándwich de pan de molde de foie gras.", "Un sándwich de pan de molde caliente de jamón y tomate.", "Un sándwich de pan de molde frío de atún y lechuga." ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cuál es el río más largo de Francia?",
+        "rightAnswer" : 0,
+        "answers" : [ "El Loira", "El Sena", "El Ródano", "El Garona" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué montaña es el punto más alto de Francia?",
+        "rightAnswer" : 0,
+        "answers" : [ "El Mont Blanc", "La Barre des Écrins", "El Arcalod", "La Pointe Percée" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué historietas cómicas francesas fueron creadas por el escritor René Goscinny y el ilustrador Albert Uderzo?",
+        "rightAnswer" : 0,
+        "answers" : [ "Astérix", "Tintin", "Lucky Luke", "Boule et Bill" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué escritor francés escribió \"Los Miserables\"?",
+        "rightAnswer" : 0,
+        "answers" : [ "Victor Hugo", "Gustave Flaubert", "Émile Zola", "Stendhal" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Quién escribió \"Los tres Mosqueteros\"?",
+        "rightAnswer" : 0,
+        "answers" : [ "Alexandre Dumas", "Alfred de Musset", "Jules Verne", "Émile Zola" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué movimiento artístico fue liderado por Claude Monet en Francia?",
+        "rightAnswer" : 0,
+        "answers" : [ "El impresionismo", "El realismo", "El romanticismo", "El cubismo" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Quíén escribió el libro \"El principito\"?",
+        "rightAnswer" : 0,
+        "answers" : [ "Antoine de Saint-Exupéry", "André Gide", "Jean-Paul Sartre", "Albert Camus" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Quién fue el autor de \"El extranjero\"?",
+        "rightAnswer" : 0,
+        "answers" : [ "Albert Camus", "André Gide", "Paul Valéry", "Jean-Paul Sartre" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué día se celebra la fiesta nacional francesa?",
+        "rightAnswer" : 0,
+        "answers" : [ "El 14 de julio", "El 1 de mayo", "El 15 de agosto", "El 11 de noviembre" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué ciudad francesa es famosa por su festival de cine?",
+        "rightAnswer" : 0,
+        "answers" : [ "Cannes", "Niza", "París", "Marsella" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿A qué ciudad francesa se la conoce como la Ciudad Rosa (La Ville Rose) por los ladrillos de terracota con los que se construyeron muchos de sus edificios?",
+        "rightAnswer" : 0,
+        "answers" : [ "Toulouse", "Montpellier", "Bordeaux", "Lyon" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿En qué región francesa se encuentran los alineamientos megalíticos de Carnac?",
+        "rightAnswer" : 0,
+        "answers" : [ "En Bretaña", "En Normandía", "En  Occitania", "En Nueva Aquitania" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cómo se llama la cantante francesa con la que Pablo Alborán canta \"Bajo el cielo de París\" (Sous le ciel de París)?",
+        "rightAnswer" : 0,
+        "answers" : [ "Zaz", "Louane", "Alizée", "Indila" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cómo se llama la residencia del presidente de Francia?",
+        "rightAnswer" : 0,
+        "answers" : [ "Palacio del Elíseo", "Palacio de las Tullerías", "Palacio de Luxemburgo", "Palacio Rohan" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué moneda tiene Francia?",
+        "rightAnswer" : 0,
+        "answers" : [ "El euro", "El franco ", "El marco", "El rublo" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cómo se llamaba la diseñadora de alta costura francesa fundadora de la marca Chanel?",
+        "rightAnswer" : 0,
+        "answers" : [ "Coco", "Caroline", "Madeleine", "Margerite" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¡Qué significa la expresión \"chercher midi à quatorze heures\"?",
+        "rightAnswer" : 0,
+        "answers" : [ "Buscar algo imposible", "Comer", "Cambiar de hora", "Buscar algo agradable" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué comida típica francesa tiene como ingrediente principal el queso?",
+        "rightAnswer" : 0,
+        "answers" : [ "La raclette", "La bouillabaise", "Le cassoulet", "La ratatouille" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué expresión significa marcharse sin despedirse?",
+        "rightAnswer" : 0,
+        "answers" : [ "Filer à la anglaise", "Avoir le coup de foudre", "S'occuper de ses oignons", "Mettre les points sur les i" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¡Qué comida originaria de la región de Bretaña, al oeste de Francia, se come especialmente en la fiesta de La Candelaria?",
+        "rightAnswer" : 0,
+        "answers" : [ "Les crêpes", "Les galettes", "Le Kouign amann", "La tourte bretonne" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué quiere decir la expresión francesa \"Il tombe des cordes\"?",
+        "rightAnswer" : 0,
+        "answers" : [ "Llueve a cántaros", "Nieva mucho", "Graniza mucho", "Llueve un poco" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cómo se dice \"queso\" en francés?",
+        "rightAnswer" : 0,
+        "answers" : [ "Fromage", "Brie", "Camembert", "Roquefort" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cuál es el punto más alto de Francia?",
+        "rightAnswer" : 0,
+        "answers" : [ "Mont Blanc", "Monte Everest", "Mont Ventoux", "Pic du Midi de Bigorre" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué emperador francés fue derrotado en la Batalla de Waterloo?",
+        "rightAnswer" : 0,
+        "answers" : [ "Napoleón Bonaparte", "Luis XIV", "Carlos Martel", "Francisco I" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿En qué año ganó Francia su primer Mundial de Fútbol?",
+        "rightAnswer" : 0,
+        "answers" : [ "1998", "2018", "1982", "2006" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué cantante famosa es conocida por la canción \"La Vie en Rose\"?",
+        "rightAnswer" : 0,
+        "answers" : [ "Édith Piaf", "Venessa Paradis", "Dolida", " Mireille Mathieu" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué símbolo francés diseñó Gustave Eiffel?",
+        "rightAnswer" : 0,
+        "answers" : [ " Torre Eiffel", "Arco de Triunfo", "Catedral de Notre Dame", " Palacio de Versalles" ]
+      }
+    }, {
+      "question" : {
+        "question" : " ¿Qué famoso tratado firmado en 1919 puso fin oficialmente a la Primera Guerra Mundial?",
+        "rightAnswer" : 0,
+        "answers" : [ "Tratado de Versalles", "Tratado de Tordesillas", " Tratado de Utrecht", "Tratado de París" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué evento de Francia se parece a la Semana Santa española, con procesiones religiosas y pasos?",
+        "rightAnswer" : 0,
+        "answers" : [ "Semaine Sainte de Perpignan ", "Feria de Nîmes", "Semaine Sainte de Chandeleur", "Festival d'Avignon" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cuál de estos franceses ganó un Premio Nobel?",
+        "rightAnswer" : 0,
+        "answers" : [ "Marie Curie ", " Claude Monet", "Gustave Eiffel", "Louis XIV" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué lengua regional francesa es parecida al catalán?",
+        "rightAnswer" : 0,
+        "answers" : [ "Occitano", "Bretón", "Alsaciano", "Flamenco" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué bebida alcohólica es típica de la región de Champagne?",
+        "rightAnswer" : 0,
+        "answers" : [ "Champagne", " Cognac", "Calvados", "Pastis" ]
+      }
+    }, {
+      "question" : {
+        "question" : " ¿Cómo se llama el famoso parque de atracciones ubicado cerca de París?",
+        "rightAnswer" : 0,
+        "answers" : [ "Disneyland París ", "Parque Asterix", "Tivoli", "Europa Park" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué ciudad francesa tiene una catedral gótica similar a las de Burgos o León?",
+        "rightAnswer" : 0,
+        "answers" : [ "Catedral de Chartres", "Catedral de Estrasburgo", "Catedral de Amiens", "Catedral de Marsella" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿En qué región se producen los vinos de Burdeos?",
+        "rightAnswer" : 0,
+        "answers" : [ "Nueva Aquitania", "Marsella", "Borgoña", "Normandía" ]
+      }
+    }, {
+      "question" : {
+        "question" : " ¿Qué ciudad francesa es famosa por su carnaval y su paseo de los ingleses?",
+        "rightAnswer" : 0,
+        "answers" : [ "Niza ", "Marsella", " Burdeos", "Lille" ]
+      }
+    }, {
+      "question" : {
+        "question" : " ¿Qué país no tiene frontera con Francia?",
+        "rightAnswer" : 0,
+        "answers" : [ "Portugal", "España", "Alemania ", "Suiza" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cuál es el lema oficial de la República Francesa?",
+        "rightAnswer" : 0,
+        "answers" : [ "\"Libertad, Igualdad, Fraternidad\"", "\"Unidad, Justicia, Paz\"", "\"Trabajo, Familia, Patria\"", "\"Honor, Valentía, Lealtad\"" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Quién fue el líder de la Resistencia Francesa y luego presidente tras la Segunda Guerra Mundial?",
+        "rightAnswer" : 0,
+        "answers" : [ "Charles de Gaulle", "Philippe Pétain", "François Mitterrand", "Georges Clemenceau" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cuál de estos eventos deportivos no se celebra en Francia?",
+        "rightAnswer" : 0,
+        "answers" : [ "La Champions League", "Roland Garros", " El Tour de Francia", "Las 24 horas de Le Mans" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué pintor francés es famoso por su obra \"Impresión, sol naciente\"?",
+        "rightAnswer" : 0,
+        "answers" : [ "Claude Monet", "Edgar Degas", "Paul Cézanne", "Pierre-Auguste Renoir" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Quién es el escritor francés autor de Los Miserables y Nuestra Señora de París?",
+        "rightAnswer" : 0,
+        "answers" : [ "Victor Hugo", "Gustave Flaubert", " Émile Zola", "Molière" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué torneo de tenis se juega en París sobre tierra batida?",
+        "rightAnswer" : 0,
+        "answers" : [ "Roland Garros", "Wimbledon", "Abierto de Australia", "US Open" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué famosa heroína francesa lideró tropas en la Guerra de los Cien Años contra Inglaterra?",
+        "rightAnswer" : 0,
+        "answers" : [ "Juana de Arco", "Catalina de Médici", "Ana de Bretaña", "María de Médici" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cuál de estos vinos es un vino espumoso típico de Francia?",
+        "rightAnswer" : 0,
+        "answers" : [ "Champán", "Merlot", "Sauternes", "Beaujolais" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué autor francés escribió El Principito?",
+        "rightAnswer" : 0,
+        "answers" : [ "Antoine de Saint-Exupéry", "Victor Hugo", "Gustave Flaubert", "Marcel Proust" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué licor anisado es típico del sur de Francia?",
+        "rightAnswer" : 0,
+        "answers" : [ "Pastis", "Cointreau", "Chartreuse", "Benedictine" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cómo se pronuncia la terminación \"-ent\" en los verbos en tercera persona del plural?",
+        "rightAnswer" : 0,
+        "answers" : [ "No se pronuncia.", "Ent", "Ant", "Ont" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cómo se llama el acento en la palabra \"école\"?",
+        "rightAnswer" : 0,
+        "answers" : [ "Acento agudo", "Acento grave", "Acento circunflejo", "Acento tónico" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¡Cómo se llama el acento en la palabra \"père\"?",
+        "rightAnswer" : 0,
+        "answers" : [ "Acento grave", "Acento agudo", "Diéresis", "Acento circunflejo" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cuál es la pronunciación de la letra \"h\" en francés?",
+        "rightAnswer" : 0,
+        "answers" : [ "Es muda, no se pronuncia.", "Como una \"j\"", "Como una \"ph\"", "Como una \"g\"" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cómo se pronuncia \"ou\" en francés?",
+        "rightAnswer" : 0,
+        "answers" : [ "u", "oi", "ou", "e" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué conector significa \"porque\" en francés?",
+        "rightAnswer" : 0,
+        "answers" : [ "Parce que", "Pourquoi", "Pour qui", "Pour quoi" ]
+      }
+    } ]
+  }, {
+    "category" : "Inglés",
+    "questions" : [ {
+      "question" : {
+        "question" : "Which sentence correctly uses a relative clause?",
+        "rightAnswer" : 0,
+        "answers" : [ "The woman who lives next door is a doctor.", "The boy which is playing football is my brother.", "The book who you lent me was really interesting.", "The car where I bought yesterday is very expensive." ]
+      }
+    }, {
+      "question" : {
+        "question" : "You can’t teach and old dog…",
+        "rightAnswer" : 0,
+        "answers" : [ "New tricks", "New abilitys", "To know swing ", "To be bad " ]
+      }
+    }, {
+      "question" : {
+        "question" : "A quien madruga dios le ayuda -The early bird catches the ...",
+        "rightAnswer" : 0,
+        "answers" : [ "Worm", "Warm", "Go", "Goed" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Es pan comido. A piece ……",
+        "rightAnswer" : 0,
+        "answers" : [ "Of cake", "Of fish", "Of eat", "Of bread" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Más vale maña que fuerza.\nBrain is better than...",
+        "rightAnswer" : 0,
+        "answers" : [ "brawn", "hatter", "strong", "brain" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Curiosity killed…",
+        "rightAnswer" : 0,
+        "answers" : [ "The cat", "The dog", "The monkey", "The fish" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Del dicho al hecho  hay mucho trecho - Easier said than ...",
+        "rightAnswer" : 0,
+        "answers" : [ "Done", "Dane ", "Doed", "Doing" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Un cuento chino. Cock and bull ……..",
+        "rightAnswer" : 0,
+        "answers" : [ "Story", "Film", "To count", "Read " ]
+      }
+    }, {
+      "question" : {
+        "question" : "Como terminarías  este dicho en español traducido al inglés : \nProbar su propia medicina \nA taste of your _________\n\n",
+        "rightAnswer" : 0,
+        "answers" : [ "Own medicine ", "Best attack", "Worst poison", "Baddest poison" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Como traducirías este dicho en español al inglés: Quien mucho abarca poco aprieta.\nTo bite off more than you can…",
+        "rightAnswer" : 0,
+        "answers" : [ "Chew", "Speak", "Does", "Sing " ]
+      }
+    }, {
+      "question" : {
+        "question" : "Más loco que una cabra.\n(To be) as mad as...",
+        "rightAnswer" : 0,
+        "answers" : [ "a hatter", "a coat", "crazy", "a rock" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Cut to the…",
+        "rightAnswer" : 0,
+        "answers" : [ "Chase ", "Case", "Final", "Graine " ]
+      }
+    }, {
+      "question" : {
+        "question" : "Selecciona la respuesta correcta de este dicho: “A palabras necias, oídos sordos” (Sticks and stones may break my bones, but words…______)",
+        "rightAnswer" : 0,
+        "answers" : [ "Don’t hurt me", "Break me", "Hurt me", "I don’t care" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Estar en pelotas - To go ...",
+        "rightAnswer" : 0,
+        "answers" : [ "Comando", "Comand ", "Play ", "Played" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Los sabios piensan de la misma manera. Great minds think …….",
+        "rightAnswer" : 0,
+        "answers" : [ "Alike ", "Similar ", "All ", "Form" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Completa correctamente \"piedra movediza no coge musgo\" . A rolling stone ...",
+        "rightAnswer" : 0,
+        "answers" : [ "gather no moss", "can hit you", "can build a house", "is a group of music" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Como terminarías  este dicho en español traducido al inglés :\nQuien ríe el último ríe mejor.\nHe who laughs last laughs ________",
+        "rightAnswer" : 0,
+        "answers" : [ "The longest", "The biggest", "The latest", "The best" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Estar enfermo, más malo que un perro.\n(To be) sick as...",
+        "rightAnswer" : 0,
+        "answers" : [ "a dog", "a head", "a cat", "an elephant" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Don’t put all your… in one basket",
+        "rightAnswer" : 0,
+        "answers" : [ "Eggs", "Balls", "Chances", "Cards " ]
+      }
+    }, {
+      "question" : {
+        "question" : "Lo que fácil viene fácil se va - Easy come easy...",
+        "rightAnswer" : 0,
+        "answers" : [ "Go", "Goed", "Going", "Gone" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Completa correctamente \"Mas vale malo conocido que bueno por conocer\" . Better the Devil you know than...",
+        "rightAnswer" : 0,
+        "answers" : [ "the devil you dont", "an angry mother", "two devils you know", "an angel " ]
+      }
+    }, {
+      "question" : {
+        "question" : "His/her bark is… than his/her bite ",
+        "rightAnswer" : 0,
+        "answers" : [ "Worse", "Horse ", "Corse", "Pose " ]
+      }
+    }, {
+      "question" : {
+        "question" : "Cómo terminarías este dicho en español traducido al inglés: El que paga, manda.\n\n\nHe who pays the piper…",
+        "rightAnswer" : 0,
+        "answers" : [ "Calls the tune", "Died by the sword ", "Spoil the broth ", "Take the power " ]
+      }
+    }, {
+      "question" : {
+        "question" : "Estar rebosante de salud.\n(To be) as fit as...",
+        "rightAnswer" : 0,
+        "answers" : [ "a fiddle", "a dog", "health", "strong" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Completa correctamente \"Andarse por las ramas\" . (To) beat around...",
+        "rightAnswer" : 0,
+        "answers" : [ "the bush", "the bell", "the rosy", "the park" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Como terminarías  este dicho en español traducido al inglés :\nSer un manazas \n(To be) __________ and thumbs\n",
+        "rightAnswer" : 0,
+        "answers" : [ "All fingers", "All hands ", "All feet", "All body" ]
+      }
+    }, {
+      "question" : {
+        "question" : "No es oro todo lo que brilla/reluce. All that glitters…",
+        "rightAnswer" : 0,
+        "answers" : [ "Is not gold ", "Is gold", "Is not silver ", "Is silver" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Ser un cabezon u obstinado -to be fixed in your ",
+        "rightAnswer" : 0,
+        "answers" : [ "Ways ", "Won", "Woned ", "Wan" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Pan comido.\n(To be) as easy...",
+        "rightAnswer" : 0,
+        "answers" : [ "as pie", "as bread", "as cake", "as eaten" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Como terminarías  este dicho en español traducido al inglés :\nA caballo regalado no le mires el diente \nDon’t look a gift horse in the ______",
+        "rightAnswer" : 0,
+        "answers" : [ "Mouth", "Hand ", "Countryside", "Park" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Algo que viene y desaparece - flash in the ...",
+        "rightAnswer" : 0,
+        "answers" : [ "Pan", "Bread", "Catch", "Kitchen" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Como terminarías  este dicho en español traducido al inglés :\nNo juzgues un libro por su portada \nDon’t juegue a book by its ______",
+        "rightAnswer" : 0,
+        "answers" : [ "Cover ", "First page", "Ending ", "Portade" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¡Buena suerte!\nBreak...",
+        "rightAnswer" : 0,
+        "answers" : [ "a leg", "lucky", "an arm", "my arm" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Selecciona la respuesta correcta de este dicho: “Dios los cría y ellos se juntan” (Birds of a feather…______)",
+        "rightAnswer" : 0,
+        "answers" : [ "Flock Together", "Group  together", "Meet together", "Call together" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Once bitten, twice…",
+        "rightAnswer" : 0,
+        "answers" : [ "Shy", "Dry", "Timid ", "Shameless " ]
+      }
+    }, {
+      "question" : {
+        "question" : "Completa correctamente \"Cada cosa en su sitio y un sitio para cada cosa\" . A place for everything, and ....",
+        "rightAnswer" : 0,
+        "answers" : [ "everything in its place", "the family always with you", "the food on the plate ", "everything in its the right place" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Intuición, presentación ante algo que puede ir mal. (A) gut ……",
+        "rightAnswer" : 0,
+        "answers" : [ "Feeling ", "Bad ", "Strange ", "To feel " ]
+      }
+    }, {
+      "question" : {
+        "question" : "Cómo terminarías este dicho en español traducido al inglés: Hacer o decir algo totalmente correcto.\n\nTo hit the nail…",
+        "rightAnswer" : 0,
+        "answers" : [ "On the head ", "On the truth ", "On the eye ", "On the money " ]
+      }
+    }, {
+      "question" : {
+        "question" : "Barking up the wrong…",
+        "rightAnswer" : 0,
+        "answers" : [ "Tree", "Wall", "Door ", "Window" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Algo a viene y desaparece-flash in the ...",
+        "rightAnswer" : 0,
+        "answers" : [ "Pan", "Bread", "Kitchen", "Catch" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Como terminarías  este dicho en español traducido al inglés :\nNo vendas la piel del oso antes de cazarlo\nDon’t count your _________ before they hatch",
+        "rightAnswer" : 0,
+        "answers" : [ "Chickens", "Bear", "Points", "Dots" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Completa correctamente \"De higos a brevas\" . Once in a ...",
+        "rightAnswer" : 0,
+        "answers" : [ "blue moon", "month", "year", "planets aligned" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Selecciona la respuesta correcta de este dicho: “A lo hecho, pecho” (What is done is…____)",
+        "rightAnswer" : 0,
+        "answers" : [ "Done", "Make", "To Do", "Finished" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Huir alejarse de alguien- give someone the ...",
+        "rightAnswer" : 0,
+        "answers" : [ "Slip", "Slap", "Spla", "Spi" ]
+      }
+    }, {
+      "question" : {
+        "question" : "A buen hambre no hay pan duro.\nBeggars can't be...",
+        "rightAnswer" : 0,
+        "answers" : [ "choosers", "bread", "selfish", "belittling" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Cómo terminarías este dicho en español traducido al inglés: Actos son amores, que no buenas razones.\nActions speak…",
+        "rightAnswer" : 0,
+        "answers" : [ "Louder than words ", "Less than words ", "More than words ", "But words " ]
+      }
+    }, {
+      "question" : {
+        "question" : "Selecciona la respuesta correcta de este dicho:“No hay mal que por bien no venga” (Everest cloud has a… _____)",
+        "rightAnswer" : 0,
+        "answers" : [ "Silver lining", "Gold lining", " Red line", "White cloud" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Selecciona la respuesta correcta de este dicho: “Mejor prevenir que curar” (Better to be save…____)",
+        "rightAnswer" : 0,
+        "answers" : [ "Than sorry", "Than mistake", "Than wrong", "Than dead man" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Selecciona la respuesta correcta de este dicho: “ la familia es lo primero” (Bloood is thicker Than…___)",
+        "rightAnswer" : 0,
+        "answers" : [ "Water", "Wine", "Juice", "Silver" ]
+      }
+    } ]
+  }, {
+    "category" : "Lengua",
+    "questions" : [ {
+      "question" : {
+        "question" : "¿Que verbos son copulativos?",
+        "rightAnswer" : 0,
+        "answers" : [ "Ser, estar y parecer", "Ser, Pertenecer y saber", "Estar, nombrar y conocer", "Ser, estar y comprender" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Indica cual de las siguientes opciones NO pertenece al siglo del esperpento de Valle-Inclán.",
+        "rightAnswer" : 0,
+        "answers" : [ "La casa de Bernarda Alba", "Luces de Bohemia", "Martes de Carnaval", "Los cuernos de don Friolera" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Indica cuál de los siguientes autores es el mayor representante del Modernismo",
+        "rightAnswer" : 0,
+        "answers" : [ "Rubén Darío", "Guillermo de Torres", "Antonio Machado", "Federico García Lorca" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Indica el orden correcto",
+        "rightAnswer" : 0,
+        "answers" : [ "Modernismo, Generación del 98, Novecentismo, Vanguardias", "Modernismo, Generación del 98, Vanguardias, Novecentismo", "Vanguardias, Generación del 98, Modernismo, Novecentismo", "Generación del 98, Modernismo, Novecentismo, Vanguardias" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Qué tipo de subordinada es la siguiente oración: Es conveniente que sepa la verdad",
+        "rightAnswer" : 0,
+        "answers" : [ "Subordinada Sustantiva Sujeto", "Subordinada Sustantiva CD", "Subordinada Sustantiva C. Régimen", "Subordinada Adverbial" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Indica la función del siguiente \"que\": Comeremos los plátanos, que están maduros",
+        "rightAnswer" : 0,
+        "answers" : [ "Pronombre relativo", "conjunción", "Nexo", "Determinante interrogativo" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cómo sabemos si es un complemento indirecto?",
+        "rightAnswer" : 0,
+        "answers" : [ "Lleva la preposición -a-", "Lleva la preposición -a- o no lleva preposición", "Lleva preposición + -eso-", "Ninguna de las anteriores" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Indica cual de las siguientes oraciones es una subordinada sustantiva de complemento directo",
+        "rightAnswer" : 0,
+        "answers" : [ "María parece que va a hablar", "Estoy harta de estudiar sintaxis", "Quien lo sepe debe decirlo", "Siempre das la razón a quien no la tiene" ]
+      }
+    }, {
+      "question" : {
+        "question" : "A que fecha pertenece la Poesía de la Posguerra",
+        "rightAnswer" : 0,
+        "answers" : [ "Década de los 40 ", "Década de los 50", "Década de los 60", "Década de los 70" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Indica cuál de los siguientes personajes No pertenece a la obra La casa de Bernarda Alba",
+        "rightAnswer" : 0,
+        "answers" : [ "Esperanza", "Martirio", "Angustias", "Amelia" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Quién fue el autor de La casa de Bernarda Alba?",
+        "rightAnswer" : 0,
+        "answers" : [ "Federico García Lorca", "Juan Ramón Jiménez", "Luis Cernuda", "Rafael Alberti" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué enfermedad tiene Fermín Ibarra en El árbol de la ciencia?",
+        "rightAnswer" : 0,
+        "answers" : [ "Artritis", "No se sabe", "Parkinson ", "Parálisis (hemiparesia) " ]
+      }
+    }, {
+      "question" : {
+        "question" : "Respuesta",
+        "rightAnswer" : 0,
+        "answers" : [ "Dar detalles que ayuden a entender ese contenido.", "Es traducir automáicamente las preguntas a otro idioma.", "Es una serie de palabras clave que dan respuestas predeterminadas.", "Es un sistema de preguntas y respuestas." ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Quién escribió la casa de Bernarda Alba ?",
+        "rightAnswer" : 0,
+        "answers" : [ "Federico García Lorca", "Ramón María del Valle Inclán ", "Jacinto Benavente", "José Zorrilla" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué autor es considerado el máximo exponente de la generación del 98?",
+        "rightAnswer" : 0,
+        "answers" : [ "Miguel de Unamuno", "Antonio Machado", "Ramón María Del Valle Inclán", "Antonio Machado" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cual es el tema principal de El árbol de la ciencia de Pío baraja?",
+        "rightAnswer" : 0,
+        "answers" : [ "La crítica a la sociedad española y la reflexión existen sobre el sentido de la vida.", "La búsqueda de la belleza a través del arte y la naturaleza.", "La crítica a la sociedad española y la reflexión existencial sobre el sentido de la vida.", "La idealización del amor juvenil en un entorno urbano." ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué son los conectores textuales?",
+        "rightAnswer" : 0,
+        "answers" : [ "Palabras o expresiones que unen\nideas y establecen relaciones lógicas.", "Elementos decorativos que embellecen la escritura.", "Términos técnicos utilizados en\ntextos científicos.", "Palabras que se usan solo al inicio de\nun texto." ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué tipo de oración es \"Aunque llovía, salimos a pasear porque queríamos jugar\"?",
+        "rightAnswer" : 0,
+        "answers" : [ "Oración compuesta subordinada", "Oración yuxtapuesta", "Oración simple", "Oración compuesta " ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cuál es una diferencia entre un texto narrativo y uno expositivo?",
+        "rightAnswer" : 0,
+        "answers" : [ "El narrativo cuenta hechos, mientras que el expositivo explica información", "El narrativo solo informa, mientras que el expositivo cuenta historias", "El texto expositivo utiliza personajes ficticios", "Ambos textos presentan datos objetivos exclusivamente " ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cuál de las siguientes opciones es correcta\nsobre la Generación del 98?",
+        "rightAnswer" : 0,
+        "answers" : [ "Analizan la identidad de España y reflejan preocupación por su decadencia.", "Sus obras se centran en temas amorosos simplemente ", "Rechazan por completo cualquier reflexión sobre España ", "Se caracterizan por un estilo recargado y modernista " ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cuál fue la última obra escrita por Federico García Lorca ?",
+        "rightAnswer" : 0,
+        "answers" : [ "La casa de Bernarda Alba", "Luces de Bohemia", "El árbol de la ciencia ", "Bodas de Sangre " ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué recurso literario se utiliza en la frase \"El viento cantaba entre los árboles\"?",
+        "rightAnswer" : 0,
+        "answers" : [ "Personificación ", "Hiperbole", "Comparación ", "Elipsis " ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿ Cuales son los principales temas del 98?",
+        "rightAnswer" : 0,
+        "answers" : [ "A y B son correctas", "Identidad nacional", "El paisaje español, La historia y realidad de España", "La preocupación por España en la época en cuestión" ]
+      }
+    }, {
+      "question" : {
+        "question" : "1. ¿Cuál es el tema principal del poema \"Todo esto por amor\" de Luis Cernuda ?",
+        "rightAnswer" : 0,
+        "answers" : [ "b) La crítica a la sociedad y la celebración del amor.", "a) La belleza de la naturaleza.", "c) La reflexión sobre la muerte.", "d) La importancia de la razón sobre los sentimientos." ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿En cuál de estás palabras hay hiato? euforia, boina, veinte, país",
+        "rightAnswer" : 0,
+        "answers" : [ "país", "boina", "euforia", "veinte" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cuál de estas palabras está mal escrita?",
+        "rightAnswer" : 0,
+        "answers" : [ "Guión", "Flúor", "Feudo", "Truhan" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cuantas lenguas se hablan en España?",
+        "rightAnswer" : 0,
+        "answers" : [ "4", "1", "3", "2" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cuál de los siguientes escritores pertenecen al romanticismo?",
+        "rightAnswer" : 0,
+        "answers" : [ "Gustavo Adolfo Béquer ", "Moratín", "Benito Peréz Galdoz", "Emilia pardo bazan " ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿A partir de cuantas sílabas se considera un verso de arte mayor?",
+        "rightAnswer" : 0,
+        "answers" : [ "8 silabas", "9", "10", "11" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Quién escribió el Lazarillo de Tormes?",
+        "rightAnswer" : 0,
+        "answers" : [ "Anónimo", "Calderón de la Barca", "Lope de Vega", "Miguel de Cervantes" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Qué tipo de palabras son vino y vino?",
+        "rightAnswer" : 0,
+        "answers" : [ "Homónimas", "Polisémica", "Sinónimas", "Antónimas" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Quién ha sido el último premio cervantes 20024?",
+        "rightAnswer" : 0,
+        "answers" : [ "Álvaro Bombo", "Álvaro Pombo", "Marsella", "Piqué" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cuál de estas palabras es la correcta?",
+        "rightAnswer" : 0,
+        "answers" : [ "Impío", "Veintavo", "Antidiluviano", "Cáterin" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cuál de las siguientes obras no fue escrita por Federico García Lorca?",
+        "rightAnswer" : 0,
+        "answers" : [ "Historia de una Escalera", "Boda de sangre", "La casa de Bernarda Alba", "Yerma" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué es esto?",
+        "rightAnswer" : 0,
+        "answers" : [ "Un ordenador", "Una mesa", "un papel", "un ratón" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Donde hay un error?",
+        "rightAnswer" : 0,
+        "answers" : [ "Detrás tuyá", "Navidades", "marzo", "La mayoría de los estudiantes acudió" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Quién fue la primera mujer en ganar el premio Cervantes?",
+        "rightAnswer" : 0,
+        "answers" : [ "Maria Zambrano", "Ana Maria Batute ", "Almudena Grandes ", "carmen Laforet" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cual de los siguientes escritores pertenecen al romanticismo?",
+        "rightAnswer" : 0,
+        "answers" : [ "José Espronceda", "Leopoldo Alas ", "Benito Pérez Galdós", "Juan Valera" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué tipo de palabras son \"botar\" y \"votar\"?",
+        "rightAnswer" : 0,
+        "answers" : [ "Homófonas", "Sinónimas", "Polisémicas", "Antónimas" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Que categoría morfológica tiene ¨que¨ en la siguiente oración: ¿qué hora es?",
+        "rightAnswer" : 0,
+        "answers" : [ "Determinante interrogativo", "Pronombre interrogativo", "Relativo", "Conjunción" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿En que obra literaria aparece el hombre de hojalata?",
+        "rightAnswer" : 0,
+        "answers" : [ "EL mago de oz", "El señor de los anillos ", "Harry Potter ", "Marvel" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué tipo de palabra es \"amargura\"?",
+        "rightAnswer" : 0,
+        "answers" : [ "Sustantivo", "Adjetivo", "Adverbio", "Verbo" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Quién escribió La Perla?",
+        "rightAnswer" : 0,
+        "answers" : [ "John Steinbeck", "Garcilaso de la vega", "Miguel de Cervantes", "Charles Dickens" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Quién escribió \"Romeo y Julieta\"?",
+        "rightAnswer" : 0,
+        "answers" : [ "William Shakespeare", "Miguel de Cervantes", "Molière", "Federico García Lorca" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Quién escribió La Caída de los Reinos?",
+        "rightAnswer" : 0,
+        "answers" : [ "Morgan Rhodes", "James Dashner", "Cassandra Clare", "Veronica Roth" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿qué es el dialecto?",
+        "rightAnswer" : 0,
+        "answers" : [ "Realización concreta de la lengua en una zona geográfica debido a una evolución lingüística", "Sistema de signos y convenciones necesarias adoptados por una colectividad", "Capacidad de comunicación mediante signos orales o escritos", "Modismos utilizados por una comarca o localidad concreta" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cuál de los siguientes no es un subgénero lírico?",
+        "rightAnswer" : 0,
+        "answers" : [ "Entremés", "Oda", "Elegía", "Egloga" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿En qué grado está el adjetivo \"antiquísimo\"?",
+        "rightAnswer" : 0,
+        "answers" : [ "Superlativo", "Positivo", "Comparativo", "Negativo" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cuál de los siguientes no es un género dramático?",
+        "rightAnswer" : 0,
+        "answers" : [ "Oda", "Tragedia", "Comedia", "Tragicomedia " ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Donde hay un error?",
+        "rightAnswer" : 0,
+        "answers" : [ "detrás tuya ", "Navidades", "marzo", "La mayoría de los estudiante acudió" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cual es la obra representativa de la generación del 98?",
+        "rightAnswer" : 0,
+        "answers" : [ "El árbol de la ciencia", "Almudena", "La casa de Bernarda Alba", "Mundiales de Maradona (libro)" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué es una antítesis?",
+        "rightAnswer" : 0,
+        "answers" : [ "Oposición entre dos términos contrarios o complementarios", "Comparación de frases", "Exageración", "Repetición de sílabas" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Quien escribió Historias de una escalera?",
+        "rightAnswer" : 0,
+        "answers" : [ "Antonio Buero Vallejo", "Miguel Mihura", "Jardiel Poncela", "Fernando García Lorca" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué obra escribió J. R. R. Tolkien?",
+        "rightAnswer" : 0,
+        "answers" : [ "El Señor de los Anillos", "Harry Potter", "Las Crónicas de Narnia", "Hamlet" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cual de las siguientes palabras hay un hiato?",
+        "rightAnswer" : 0,
+        "answers" : [ "Baúl", "diente", "canción", "náufrago" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Quién es el autor de Cien años de soledad?",
+        "rightAnswer" : 0,
+        "answers" : [ "Gabriel García Marquez", "Carlos Fuente", "Jorge Luis Borges", "Julio Cortázar" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿En cuál de las siguientes palabras hay un hiato?",
+        "rightAnswer" : 0,
+        "answers" : [ "caería", "respuesta", "pregunta", "bien" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿En que palabras hay un diptongo?",
+        "rightAnswer" : 0,
+        "answers" : [ "náufrago", "Baúl", "Raúl", "Buho" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cuál de estos autores no perteneció a la Generación del 27?",
+        "rightAnswer" : 0,
+        "answers" : [ "Antonio Machado", "Federico García Lorca", "Luis Cernuda", "Jorge Guillén" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Cuál es la figura literaria que consiste en la repetición de sonidos al final de los versos en un poema?",
+        "rightAnswer" : 0,
+        "answers" : [ "Rima", "Metáfora", "Aliteración", "Hipérbole" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Indica cuál es un ejemplo de triptongo",
+        "rightAnswer" : 0,
+        "answers" : [ "Uruguay", "Tristán", "Onomatopeya", "Chimpancé" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿En cual de las siguientes palabras aparece un diptongo?",
+        "rightAnswer" : 0,
+        "answers" : [ "Cuidar", "Canto", "Calidad", "Reía" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿A que generación pertenecen las Sinsombrero?",
+        "rightAnswer" : 0,
+        "answers" : [ "Generación del 27", "Generación del 98", "Generación del 14", "Generación de los 50" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿En cual de las siguientes palabras no hay diptongo?",
+        "rightAnswer" : 0,
+        "answers" : [ "Calidad ", "Cielo", "Ecuación ", "Diente" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué novela no está escrita por Jane Austen?",
+        "rightAnswer" : 0,
+        "answers" : [ "Mujercitas", "Orgullo y Prejuicio", "Emma", "Sentido y Sensibilidad" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Indica cual de las siguientes opciones es una característica de la literatura en el exilio",
+        "rightAnswer" : 0,
+        "answers" : [ "Todas ", "Reflexión sobre la identidad y la memoria histórica ", "Compromiso político", "Nostalgia, desarraigo y crítica a las consecuencias de la Guerra Civil" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Indica cual de las siguientes obras pertenecen a Torrente Ballester",
+        "rightAnswer" : 0,
+        "answers" : [ "Don Juan", "La colmena", "El laberinto mágico", "Ninguna de las anteriores" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Cual de los siguientes artistas no pertenece a los novísimos",
+        "rightAnswer" : 0,
+        "answers" : [ "Ángel González", "Manuel Vázquez Montalbán", "Martínez Sarrión", "de Azúa" ]
+      }
+    } ]
+  }, {
+    "category" : "Historia",
+    "questions" : [ {
+      "question" : {
+        "question" : "¿De qué país era originaria la mujer de Luis XVI?",
+        "rightAnswer" : 0,
+        "answers" : [ "Austria", "Francia", "España", "Portugal" ]
+      }
+    }, {
+      "question" : {
+        "question" : "Dónde nació Juana de Arco?",
+        "rightAnswer" : 0,
+        "answers" : [ "Francia", "Portugal", "Inglaterra", "España" ]
+      }
+    }, {
+      "question" : {
+        "question" : "¿Qué países fueron los miembros de los Aliados en la Segunda Guerra Mundial?",
+        "rightAnswer" : 0,
+        "answers" : [ "Gran Bretaña, Francia, Rusia, China y Estados Unidos.", "Gran Bretaña, Bélgica, Alemania, Rusia Y China.", "Estados Unidos, China, Gran Bretaña, Francia y Alemania.", "Alemania, Gran Bretaña, China, Austria y Francia." ]
+      }
+    } ]
+  } ]
+}
